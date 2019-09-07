@@ -79,4 +79,3 @@ const createProjectCards = (arr) => {
 }
 }
 createProjectCards(projects);
-
