@@ -32,6 +32,7 @@ body {
   
   .fab:hover, .fas:hover{
       opacity: 0.7;
+      text-decoration: none;
   }
 
   .fa-twitter {
