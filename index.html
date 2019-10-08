@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,24 +14,27 @@
 
 <body>
 
-    <body>
+
         <!-- Navigation -->
-        <nav>
-          <h1 id="name">Gabriel Seals</h1>
-          <h2>Enjoy these sweet tunes while the website is under construction</h2>
-          <iframe src="https://open.spotify.com/embed/track/5QukmWtZgUbqLmjDmqLbRa" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-          <iframe src="https://open.spotify.com/embed/track/5rHUQAGFwKmPRQWhMIes9a" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-          <iframe src="https://open.spotify.com/embed/track/6fTt0CH2t0mdeB2N9XFG5r" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-          <ul id="navLinks">
-            <li><a id="navToBio">Bio</a></li>
-            <li><a id="navToTechnologies">Technologies</a></li>
-            <li><a id="navToProjects">Projects</a></li>
-          </ul>
-        </nav>
+        <h1 id="name">Gabriel Seals</h1>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Web Dev</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" id="navToBio" href="#">Bio <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" id="navToTechnologies" href="#">Technologies</a>
+      <a class="nav-item nav-link" id="navToProjects" href="#">Projects</a>
+    </div>
+  </div>
+</nav>
         <!-- End Navigation -->
       
         <!-- Primary View -->
         <div class="fullPage" id="bioPage">
+        <h3>Bio</h3>
           <!--What is your background? --> <!--edit and revise for clarity and specificity-->
             <p>
               I grew up in a town of roughly 10,000 people. We raised chickens and drove four-wheelers. I decided to go to college because it was what everyong
@@ -56,17 +58,23 @@
           </p>
         </div>
         <div class="fullPage" id="technologiesPage">
-          <h3>Tool and Technologies</h3>
+          <h3>Tools and Technologies</h3>
           <ul>
             <li>Git and Github</li>
             <li>Visual Studio Code</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>Bootstrap</li>
+            <li>ES6 modules</li>
+            <li>Webpack</li>
           </ul>
         </div>
 
-        <div class="fullPage" id="projectsPage"></div>
+        <div class="fullPage" id="projectsPage">
+          <h3>Projects</h3>
+        </div>
         <!-- End Primary View -->
       
         <!-- Footer -->

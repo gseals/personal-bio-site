@@ -1,5 +1,3 @@
-console.log('establishing link')
-
 //to do
 //make nav bar
 //make display step through each project that pages through projects created.
@@ -52,7 +50,6 @@ const projects = [
       }
 ]
 
-
 const printToDom = (toPrint, divId) => {
     document.getElementById(divId).innerHTML += toPrint
 };
@@ -78,6 +75,25 @@ const createProjectCards = (arr) => {
     }
 }
 }
+
+document.addEventListener('click', function(e){
+  let bio = document.getElementById('bioPage');
+  let tech = document.getElementById('technologiesPage');
+  let pro = document.getElementById('projectsPage');
+  if (event.target.id === navToBio) {
+    bio.classList.add('show');
+    tech.classList.add('hide');
+    pro.classList.add('hide');
+  } else if (event.target.id === navToTechnologies) {
+    bio.classList.add('hide');
+    tech.classList.add('show');
+    pro.classList.add('hide');
+  } else if (event.target.id === navToProjects) {
+    bio.classList.add('hide');
+    tech.classList.add('hide');
+    pro.classList.add('show');
+  }
+})
 
 const init = () => {
   createProjectCards(projects);

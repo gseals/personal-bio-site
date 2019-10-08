@@ -54,3 +54,11 @@ body {
    background:#00BFFF; 
    color: #FFF;
  }
+
+ .show {
+   display: none;
+ };
+
+ .hide {
+   display: hidden;
+ }
