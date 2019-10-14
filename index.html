@@ -16,25 +16,33 @@
 
 
         <!-- Navigation -->
-        <h1 id="name">Gabriel Seals</h1>
+        <h1 class="name">Gabriel Seals</h1>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Web Dev</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  <a class="navbar-brand" id="navToBio" href="#">Web Dev</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active" id="navToBio" href="#">Bio <span class="sr-only">(current)</span></a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="navbar-nav mr-auto">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item-active">
+      <a class="nav-link" id="navToBio" href="#">Bio <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
       <a class="nav-item nav-link" id="navToTechnologies" href="#">Technologies</a>
+      </li>
+      <li class="nav-item">
       <a class="nav-item nav-link" id="navToProjects" href="#">Projects</a>
+      </li>
+      </ul>
     </div>
   </div>
 </nav>
         <!-- End Navigation -->
       
         <!-- Primary View -->
-        <div class="fullPage" id="bioPage">
-        <h3>Bio</h3>
+        <div class="fullPage active" id="bioPage">
+        <h3 class="name">Bio</h3>
           <!--What is your background? --> <!--edit and revise for clarity and specificity-->
             <p>
               I grew up in a town of roughly 10,000 people. We raised chickens and drove four-wheelers. I decided to go to college because it was what everyong
@@ -58,7 +66,7 @@
           </p>
         </div>
         <div class="fullPage" id="technologiesPage">
-          <h3>Tools and Technologies</h3>
+          <h3 class="name">Tools and Technologies</h3>
           <ul>
             <li>Git and Github</li>
             <li>Visual Studio Code</li>
@@ -73,7 +81,8 @@
         </div>
 
         <div class="fullPage" id="projectsPage">
-          <h3>Projects</h3>
+          <h3 class="name">Projects</h3>
+          <div id="projectsDisplay"></div>
         </div>
         <!-- End Primary View -->
       
@@ -87,5 +96,8 @@
         </footer>
         <!-- End Footer -->
 <script src="projects.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

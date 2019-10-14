@@ -71,29 +71,41 @@ const createProjectCards = (arr) => {
     </div>
     </div>
     `
-    printToDom(domString, 'projectsPage');
+    printToDom(domString, 'projectsDisplay');
     }
 }
 }
 
-document.addEventListener('click', function(e){
-  let bio = document.getElementById('bioPage');
-  let tech = document.getElementById('technologiesPage');
-  let pro = document.getElementById('projectsPage');
-  if (event.target.id === navToBio) {
-    bio.classList.add('show');
-    tech.classList.add('hide');
-    pro.classList.add('hide');
-  } else if (event.target.id === navToTechnologies) {
-    bio.classList.add('hide');
-    tech.classList.add('show');
-    pro.classList.add('hide');
-  } else if (event.target.id === navToProjects) {
-    bio.classList.add('hide');
-    tech.classList.add('hide');
-    pro.classList.add('show');
-  }
-})
+
+
+    document.body.addEventListener('click', (event) => {
+    let bio = document.getElementById('bioPage');
+    let tech = document.getElementById('technologiesPage');
+    let pro = document.getElementById('projectsPage');
+    event.preventDefault();
+    if (event.target.id === 'navToBio') {
+      bio.classList.remove('hide');
+      bio.classList.add('active');
+      tech.classList.remove('active');
+      tech.classList.add('hide');
+      pro.classList.remove('active');
+      pro.classList.add('hide');
+    } else if (event.target.id === 'navToTechnologies') {
+      bio.classList.remove('active');
+      bio.classList.add('hide');
+      tech.classList.remove('hide');
+      tech.classList.add('active');
+      pro.classList.remove('active');
+      pro.classList.add('hide');
+    } else if (event.target.id === 'navToProjects') {
+      bio.classList.remove('active');
+      bio.classList.add('hide');
+      tech.classList.remove('active');
+      tech.classList.add('hide');
+      pro.classList.remove('hide');
+      pro.classList.add('active');
+    }
+  })
 
 const init = () => {
   createProjectCards(projects);
