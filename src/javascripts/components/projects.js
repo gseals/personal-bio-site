@@ -1,58 +1,4 @@
-// to do
-// make nav bar
-// make display step through each project that pages through projects created.
-
-const projects = [
-  {
-    title: 'Cool Project',
-    screenshot: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjb5s_PQ6mKy20Xrjh-o3iP_15ksWq-DVkufDjuiJvpeSabzIq',
-    description: 'This is the best project',
-    technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Version Control with Github',
-    available: false,
-    url: 'https://github.com/nss-evening-cohort-8/js-part-deux',
-    githubUrl: 'https://github.com/nss-evening-cohort-8/js-part-deux',
-  },
-  {
-    title: 'Cool Project',
-    screenshot: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjb5s_PQ6mKy20Xrjh-o3iP_15ksWq-DVkufDjuiJvpeSabzIq',
-    description: 'This is the best project',
-    technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Version Control with Github',
-    available: true,
-    url: 'https://github.com/nss-evening-cohort-8/js-part-deux',
-    githubUrl: 'https://github.com/nss-evening-cohort-8/js-part-deux',
-  },
-  {
-    title: 'Cool Project',
-    screenshot: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjb5s_PQ6mKy20Xrjh-o3iP_15ksWq-DVkufDjuiJvpeSabzIq',
-    description: 'This is the best project',
-    technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Version Control with Github',
-    available: true,
-    url: 'https://github.com/nss-evening-cohort-8/js-part-deux',
-    githubUrl: 'https://github.com/nss-evening-cohort-8/js-part-deux',
-  },
-  {
-    title: 'Cool Project',
-    screenshot: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjb5s_PQ6mKy20Xrjh-o3iP_15ksWq-DVkufDjuiJvpeSabzIq',
-    description: 'This is the best project',
-    technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Version Control with Github',
-    available: true,
-    url: 'https://github.com/nss-evening-cohort-8/js-part-deux',
-    githubUrl: 'https://github.com/nss-evening-cohort-8/js-part-deux',
-  },
-  {
-    title: 'Cool Project',
-    screenshot: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjb5s_PQ6mKy20Xrjh-o3iP_15ksWq-DVkufDjuiJvpeSabzIq',
-    description: 'This is the best project',
-    technologiesUsed: 'HTML, CSS, Vanilla JavaScript, Version Control with Github',
-    available: false,
-    url: 'https://github.com/nss-evening-cohort-8/js-part-deux',
-    githubUrl: 'https://github.com/nss-evening-cohort-8/js-part-deux',
-  },
-];
-
-const printToDom = (toPrint, divId) => {
-  document.getElementById(divId).innerHTML += toPrint;
-};
+import util from '../helpers/utilities';
 
 const createProjectCards = (arr) => {
   let domString = '';
@@ -71,7 +17,7 @@ const createProjectCards = (arr) => {
 </div>
 </div>
 `;
-      printToDom(domString, 'projectsDisplay');
+      util.printToDom(domString, 'projectsDisplay');
     }
   }
 };
@@ -105,8 +51,4 @@ document.body.addEventListener('click', (event) => {
   }
 });
 
-const init = () => {
-  createProjectCards(projects);
-};
-
-init();
+export default { createProjectCards };
