@@ -13,7 +13,10 @@ const createProjectCards = () => {
           <h5 class="card-title">${project.title}</h5>
           <p class="card-text">${project.description}</p>
           <p class="card-text">Created with: ${project.technologiesUsed}</p>
-          <button href="${project.url}" class="btn btn-primary">Check it out</button>
+          <div class="text-center">
+          <a href="${project.url}">Demo Site</a>
+          <a href="${project.githubUrl}">GitHub code</a>
+          </div>
           </div>
         </div>`;
         util.printToDom('projectsDisplay', domString);
