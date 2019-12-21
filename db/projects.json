@@ -1,0 +1,11 @@
+{
+  "project1": {
+    "title": "Le Baguette",
+    "screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-michelin-restaurant/master/screenshots/homeView.png",
+    "description": "It is a website",
+    "technologiesUsed": "HTML, SCSS, Vanilla JavaScript, Bootstrap, ES6 Modules, jQuery, Firebase, Axios",
+    "available": true,
+    "url": "https://le-baguette-af839.web.app/",
+    "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-michelin-restaurant"
+  }
+}
