@@ -1,25 +1,25 @@
 import util from '../helpers/utilities';
+import getProjectData from '../helpers/data/projectsData';
 
-const createProjectCards = (arr) => {
+const createProjectCards = () => {
   let domString = '';
-  for (let i = 0; i < arr.length; i += 1) {
-    const object = arr[i];
-    if (object.available === true) {
-    // if (arr.available === true) {
-      domString = `
-<div class="card" style="width: 18rem;">
-<img src="${object.screenshot}" class="card-img-top" alt="${object.title}">
-<div class="card-body">
-  <h5 class="card-title">${object.title}</h5>
-  <p class="card-text">${object.description}</p>
-  <p class="card-text">Created with: ${object.technologiesUsed}</p>
-  <button href="${object.url}" class="btn btn-primary">Check it out</button>
-</div>
-</div>
-`;
-      util.printToDom(domString, 'projectsDisplay');
-    }
-  }
+  getProjectData.getProjectData()
+    .then((projects) => {
+      projects.forEach((project) => {
+        domString += `
+        <div class="card" style="width: 18rem;">
+          <img src="${project.screenshot}" class="card-img-top" alt="${project.title}">
+          <div class="card-body">
+          <h5 class="card-title">${project.title}</h5>
+          <p class="card-text">${project.description}</p>
+          <p class="card-text">Created with: ${project.technologiesUsed}</p>
+          <button href="${project.url}" class="btn btn-primary">Check it out</button>
+          </div>
+        </div>`;
+        util.printToDom('projectsDisplay', domString);
+      })
+        .catch((error) => console.error(error));
+    });
 };
 
 document.body.addEventListener('click', (event) => {
