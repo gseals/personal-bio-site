@@ -7,5 +7,23 @@
     "available": true,
     "url": "https://le-baguette-af839.web.app/",
     "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-michelin-restaurant"
+  },
+  "project2": {
+    "title": "Jurassic World",
+    "screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-jurassic-world/master/images/readmeImg/homepageUpdate.png",
+    "description": "It is another website",
+    "technologiesUsed": "HTML, SCSS, Vanilla JavaScript, Bootstrap, ES6 Modules, jQuery, Firebase, Axios",
+    "available": true,
+    "url": "https://jurassic-park-26ffa.firebaseapp.com/",
+    "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-jurassic-world"
+  },
+  "project3": {
+    "title": "Temperature Converter",
+    "screenshot": "https://raw.githubusercontent.com/gseals/temp-converter/master/screenshots/Mainview.png",
+    "description": "An application that allows users to convert Fahrenheit to Celsius or Celsius to Fahrenheit.",
+    "technologiesUsed": "HTML, CSS, Bootstrap, Vanilla JavaScript",
+    "available": true,
+    "url": "https://temperature-converter-9b0b1.firebaseapp.com",
+    "githubUrl": "https://github.com/gseals/temp-converter"
   }
 }
