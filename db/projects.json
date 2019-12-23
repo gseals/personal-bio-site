@@ -1,5 +1,23 @@
 {
   "project1": {
+    "title": "Temperature Converter",
+    "screenshot": "https://raw.githubusercontent.com/gseals/temp-converter/master/screenshots/Mainview.png",
+    "description": "An application that allows users to convert Fahrenheit to Celsius or Celsius to Fahrenheit.",
+    "technologiesUsed": "HTML, CSS, Bootstrap, Vanilla JavaScript",
+    "available": true,
+    "url": "https://temperature-converter-9b0b1.firebaseapp.com",
+    "githubUrl": "https://github.com/gseals/temp-converter"
+  },
+  "project2": {
+    "title": "Pinterest",
+    "screenshot": "https://raw.githubusercontent.com/gseals/pinterest/master/screenshots/loggedIn.png",
+    "description": "A Pinterest-style application allowing users to create boards and pins for whatever they like.",
+    "technologiesUsed": "HTML, SCSS, Vanilla JavaScript, Bootstrap, ES6 Modules, jQuery, Firebase, Axios",
+    "available": true,
+    "url": "https://pinterest-9ab9b.firebaseapp.com",
+    "githubUrl": "https://github.com/gseals/pinterest"
+  },
+  "project3": {
     "title": "Le Baguette",
     "screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-michelin-restaurant/master/screenshots/homeView.png",
     "description": "It is a website",
@@ -8,7 +26,7 @@
     "url": "https://le-baguette-af839.web.app/",
     "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-michelin-restaurant"
   },
-  "project2": {
+  "project4": {
     "title": "Jurassic World",
     "screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-jurassic-world/master/images/readmeImg/homepageUpdate.png",
     "description": "It is another website",
@@ -16,14 +34,5 @@
     "available": true,
     "url": "https://jurassic-park-26ffa.firebaseapp.com/",
     "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-jurassic-world"
-  },
-  "project3": {
-    "title": "Temperature Converter",
-    "screenshot": "https://raw.githubusercontent.com/gseals/temp-converter/master/screenshots/Mainview.png",
-    "description": "An application that allows users to convert Fahrenheit to Celsius or Celsius to Fahrenheit.",
-    "technologiesUsed": "HTML, CSS, Bootstrap, Vanilla JavaScript",
-    "available": true,
-    "url": "https://temperature-converter-9b0b1.firebaseapp.com",
-    "githubUrl": "https://github.com/gseals/temp-converter"
   }
 }
