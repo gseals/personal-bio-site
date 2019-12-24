@@ -1,11 +1,12 @@
 import util from '../../helpers/utilities';
+import './biography.scss';
 
 const bioString = () => {
   let domString = '';
   domString = `
   <!--What is your background? --> <!--edit and revise for clarity and specificity-->
   <h4>Background</h4>  
-  <div class="background">
+  <div class="bioBackground">
   <p>
       I grew up in a town of roughly 10,000 people. We raised chickens and drove four-wheelers. I decided to go to college because it was what everyong
       else was doing and I didn't stop to question the path: high school, college, job, family, kids, etc. College challenged me and allowed me to meet a
@@ -16,14 +17,14 @@ const bioString = () => {
   </div>
   <!--Why do you want to go into development?--> <!--edit and revise for clarity and specificity-->
   <h4 class="background">Why web development?</h4>
-  <div class="background">
+  <div class="bioBackground">
   <p>
     I believe people should have skills or a craft that they work to develop and evolve.
   </p>
   </div>
   <!--What do you love about development?--> <!--edit and revise for clarity and specificity-->
   <h4 class="background">What do you love about development?</h4>
-  <div class="background">
+  <div class="bioBackground">
   <p>
     There's an answer and that answer isn't based on longwinded thoughts or postulations. There's an answer and that does
     not mean it is easy to find. There's an answer and there may be more than one. The satisfaction with programming comes from figuring things out
