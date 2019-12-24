@@ -1,5 +1,5 @@
-import util from '../helpers/utilities';
-import getProjectData from '../helpers/data/projectsData';
+import util from '../../helpers/utilities';
+import getProjectData from '../../helpers/data/projectsData';
 
 const createProjectCards = () => {
   let domString = '';
