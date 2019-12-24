@@ -31,3 +31,7 @@ Projects
 ## Contributors
 
 * [Gabriel Seals](https://github.com/gseals)
+
+## Sources:
+* Starry Sky - [Unsplash](https://unsplash.com/photos/uWR7D6L8bU8)
+* Waves - [Unsplash](https://unsplash.com/photos/cEeEtjedNls)
