@@ -1,9 +1,13 @@
 import 'bootstrap';
-import projects from './components/projects';
+import projects from './components/projects/projects';
+import technologies from './components/technologies/technologies';
+import bioString from './components/biography/biography';
 import '../styles/main.scss';
 
 const init = () => {
   projects.createProjectCards();
+  technologies.createTechCards();
+  bioString.bioString();
 };
 
 init();

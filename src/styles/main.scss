@@ -12,6 +12,13 @@ body {
   flex-wrap: wrap;
 }
 
+#technologiesDisplay {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .card {
   margin: auto;
 }

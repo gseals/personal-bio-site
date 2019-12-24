@@ -8,7 +8,7 @@ const getTechData = () => new Promise((resolve, reject) => {
     .then((response) => {
       const demTech = response.data;
       const tech = [];
-      Object.keys(demTEch).forEach((fbId) => {
+      Object.keys(demTech).forEach((fbId) => {
         demTech[fbId].id = fbId;
         tech.push(demTech[fbId]);
       });
