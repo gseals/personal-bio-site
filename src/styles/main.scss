@@ -2,19 +2,12 @@
 @import './variables';
 
 body {
-    background: url(../assets/unsplashSky.jpg) no-repeat;
+    background: url(../assets/unsplashSky.jpg);
     background-size: cover;
     background-position: cover;
 }
 
 #projectsDisplay {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-#technologiesDisplay {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
