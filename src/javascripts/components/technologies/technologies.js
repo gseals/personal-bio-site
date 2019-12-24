@@ -10,7 +10,7 @@ const createTechCards = () => {
         domString += `
         <div class="cardSize">
           <div class="d-flex flex-row flex-wrap justify-content-between">
-          <div>
+          <div class="techImg">
           <a href="${technology.webpageURL}" target="_blank">
             <img class="imgSize" src="${technology.image}" />
           </a>

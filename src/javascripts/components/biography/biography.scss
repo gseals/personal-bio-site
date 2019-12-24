@@ -2,3 +2,19 @@
   background-color: tan;
   box-shadow: 5px 10px #888888 
 }
+
+.bioBox {
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+}
+
+#bioImg {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 20px;
+}

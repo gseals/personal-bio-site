@@ -32,7 +32,7 @@ document.body.addEventListener('click', (event) => {
   const tech = document.getElementById('technologiesPage');
   const pro = document.getElementById('projectsPage');
   event.preventDefault();
-  if (event.target.id === 'navToBio') {
+  if (event.target.id === 'navToIntro') {
     intro.classList.remove('hide');
     intro.classList.add('active');
     bio.classList.remove('active');
