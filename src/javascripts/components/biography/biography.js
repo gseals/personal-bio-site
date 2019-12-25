@@ -6,7 +6,7 @@ const bioString = () => {
   let domString = '';
   domString = `
   <img id="bioImg" src="${photo}"/>
-  <h3>Hi! I'm Gabe</h3>
+  <h3 class="bioHi">Hi! I'm Gabe</h3>
   <!--What is your background? --> <!--edit and revise for clarity and specificity-->
   <h4>Background</h4>  
   <div class="bioBackground">
