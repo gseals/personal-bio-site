@@ -15,11 +15,19 @@
 }
 
 #bioImg {
-  border-radius: 50%;
-  width: 200px;
-  height: 275px;
-  margin-bottom: 20px;
+  width: 350px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
 }
+
+/* old bioImage
+border-radius: 50%;
+width: 200px;
+height: 275px;
+margin-bottom: 20px; */
 
 .bioHi {
   color: white;

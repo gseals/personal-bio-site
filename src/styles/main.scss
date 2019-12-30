@@ -2,9 +2,11 @@
 @import './variables';
 
 body {
-    background: url(../assets/unsplashSky.jpg);
+    background: url(../assets/unsplashSky.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-position: cover;
 }
 
 #projectsDisplay {
@@ -20,6 +22,7 @@ body {
 
 .name {
   text-align: center;
+  color: white;
 }
 
 /*the items below specifically control the look and reactivity of the "connect with me" buttons*/
