@@ -9,7 +9,7 @@ const createTechCards = () => {
       technologies.forEach((technology) => {
         domString += `
         <div class="cardSize">
-          <div class="d-flex flex-row flex-wrap justify-content-between">
+          <div class="d-flex flex-row flex-wrap justify-content-between text-center">
           <div class="techImg">
           <a href="${technology.webpageURL}" target="_blank">
             <img class="imgSize" src="${technology.image}" />
