@@ -9,6 +9,10 @@ body {
     background-size: cover;
 }
 
+#navbarRightSide {
+  justify-content: flex-end;
+}
+
 #projectsDisplay {
   display: flex;
   flex-direction: row;
