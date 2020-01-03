@@ -20,7 +20,7 @@
   "project3": {
     "title": "Le Baguette",
     "screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-michelin-restaurant/master/screenshots/homeView.png",
-    "description": "It is a website",
+    "description": "A team-built website utilizing Firebase, Axios, and google authentication that allows users to create, display, update, and delete (CRUD) data from Firebase that immediately reflects on the loaded page. As a part of this group, I contributed the staff page, the filter function on the staff page, and the layout of the homepage.",
     "technologiesUsed": "HTML, SCSS, Vanilla JavaScript, Bootstrap, ES6 Modules, jQuery, Firebase, Axios",
     "available": true,
     "url": "https://le-baguette-af839.web.app/",
@@ -29,7 +29,7 @@
   "project4": {
     "title": "Jurassic World",
     "screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-jurassic-world/master/images/readmeImg/homepageUpdate.png",
-    "description": "It is another website",
+    "description": "The second of our team websites, this project also utilized Firebase, Axios, and google authentication we took over from a different group so we performed code refactoring and code cleanup. Additionally, I contributed to retrieving staff data and assigning them to rides as well as creating the modal allowing for that selection.",
     "technologiesUsed": "HTML, SCSS, Vanilla JavaScript, Bootstrap, ES6 Modules, jQuery, Firebase, Axios",
     "available": true,
     "url": "https://jurassic-park-26ffa.firebaseapp.com/",
