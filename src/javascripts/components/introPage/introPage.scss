@@ -4,10 +4,10 @@
 };
 
 .underline {
-  position: center;
-  width: 35%;
-  height: 3px;
-  background-color: silver;
+  // position: center;
+  // width: 35%;
+  // height: 3px;
+  // background-color: silver;
   // animation-name: example;
   // animation-fill-mode: backwards;
   // animation-duration: .6s;
@@ -20,6 +20,8 @@
 
 .introMiddle {
   text-align: center;
+  position: relative;
+  top: 100px;
   h1 {
       font-size: 5.5rem;
       margin-top: 265;
