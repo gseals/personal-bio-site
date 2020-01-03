@@ -8,7 +8,7 @@ const bioString = () => {
   <div>
   <h3 class="name">Hi! I'm Gabe</h3>
   </div>
-  <div class="row">
+  <div class="row bioBlock">
   <div class="col-4">
   <img id="bioImg" src="${photo}"/>
   </div>
@@ -26,17 +26,17 @@ const bioString = () => {
   and work towards a goal. My wife and I graduated in 2017.
   </p>
   <p>
-  The road from there to here looks like this: I did some editing for a
-  literary magazine on the West Coast, some poetry judging for local contests,
+  The road from there to here looks like this: I did some remote editing for a
+  literary magazine on the West Coast, acted as poetry judging for local contests,
   assisted professors in grading essays, and published poems in literary journals
-  like <a hhref="http://www.boaatpress.com/coronation">BOAAT</a>, Frontier Poetry, and Rockvale Review.
+  like BOAAT, Frontier Poetry, and Rockvale Review.
   </p>
   <p>
   In late 2018, I began to seriously consider how my time should be spent:
   should I continue waiting for opportunities to become available, or should
   I seek an opportunity and pursue it with the intention of spending the rest
   of my life doing it? Luckily, I had some experience with coding as a graduate
-  school class required us to build out basic HTML and CSS websites. As the
+  school class required us to build basic HTML and CSS websites. As the
   Office Administrator for Belmont University’s campus clinic, I serve as the
   point person for changes in our EHR - Medicat - while also wielding control
   over our sector of Hannon Hill’s Cascade Content Management System.
@@ -47,7 +47,7 @@ const bioString = () => {
   comes from figuring things out and, while figuring things out takes time, the
   amount of time invested in finding the solution yields both results and a growing
   knowledge-base that can be called upon to complete future tasks. In essence, time
-  in equals time out and then some</p>
+  in equals time out and then some.</p>
   </p>
   </div>
   </div>
