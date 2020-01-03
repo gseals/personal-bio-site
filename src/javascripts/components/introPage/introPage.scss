@@ -4,12 +4,24 @@
 };
 
 .underline {
+  text-align: center;
   position: relative;
-  width: 30%;
-  height: 4px;
+  width: 35%;
+  height: 3px;
   background-color: silver;
 }
 
 .introCenter {
   margin: 40px;
+}
+
+.introMiddle {
+  text-align: center;
+  h1 {
+      font-size: 5.5rem;
+      margin-top: 265;
+  }
+  h4 {
+      margin-top: 30;
+  }
 }

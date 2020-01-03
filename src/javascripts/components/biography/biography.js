@@ -5,10 +5,13 @@ import photo from '../../../assets/profilePic.jpg';
 const bioString = () => {
   let domString = '';
   domString = `
+  <div class="col">
   <img id="bioImg" src="${photo}"/>
+  </div>
   <h3 class="bioHi">Hi! I'm Gabe</h3>
   <!--What is your background? --> <!--edit and revise for clarity and specificity-->
-  <h4>Background</h4>  
+  <h4>Background</h4>
+  <div class="col">
   <div class="bioBackground">
   <p>
       I grew up in a town of roughly 10,000 people. We raised chickens and drove four-wheelers. I decided to go to college because it was what everyong
@@ -36,6 +39,7 @@ const bioString = () => {
     having to wait weeks before finding out the result of your efforts. Coding/programming can be done from anywhere. The logic and visualization it allows
     me to utilize is similar to writing, but more immediate in its results and effects.
   </p>
+  </div>
   </div>`;
   util.printToDom('bioDisplay', domString);
 };

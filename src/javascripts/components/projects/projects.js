@@ -26,49 +26,49 @@ const createProjectCards = () => {
     });
 };
 
-document.body.addEventListener('click', (event) => {
-  const intro = document.getElementById('introPage');
-  const bio = document.getElementById('bioPage');
-  const tech = document.getElementById('technologiesPage');
-  const pro = document.getElementById('projectsPage');
-  event.preventDefault();
-  if (event.target.id === 'navToIntro') {
-    intro.classList.remove('hide');
-    intro.classList.add('active');
-    bio.classList.remove('active');
-    bio.classList.add('hide');
-    tech.classList.remove('active');
-    tech.classList.add('hide');
-    pro.classList.remove('active');
-    pro.classList.add('hide');
-  } else if (event.target.id === 'navToTechnologies') {
-    intro.classList.remove('active');
-    intro.classList.add('hide');
-    bio.classList.remove('active');
-    bio.classList.add('hide');
-    tech.classList.remove('hide');
-    tech.classList.add('active');
-    pro.classList.remove('active');
-    pro.classList.add('hide');
-  } else if (event.target.id === 'navToProjects') {
-    intro.classList.remove('active');
-    intro.classList.add('hide');
-    bio.classList.remove('active');
-    bio.classList.add('hide');
-    tech.classList.remove('active');
-    tech.classList.add('hide');
-    pro.classList.remove('hide');
-    pro.classList.add('active');
-  } else if (event.target.id === 'navToBio') {
-    intro.classList.remove('active');
-    intro.classList.add('hide');
-    bio.classList.remove('hide');
-    bio.classList.add('active');
-    tech.classList.remove('active');
-    tech.classList.add('hide');
-    pro.classList.remove('active');
-    pro.classList.add('hide');
-  }
-});
+// document.body.addEventListener('click', (event) => {
+//   const intro = document.getElementById('introPage');
+//   const bio = document.getElementById('bioPage');
+//   const tech = document.getElementById('technologiesPage');
+//   const pro = document.getElementById('projectsPage');
+//   event.preventDefault();
+//   if (event.target.id === 'navToIntro') {
+//     intro.classList.remove('hide');
+//     intro.classList.add('active');
+//     bio.classList.remove('active');
+//     bio.classList.add('hide');
+//     tech.classList.remove('active');
+//     tech.classList.add('hide');
+//     pro.classList.remove('active');
+//     pro.classList.add('hide');
+//   } else if (event.target.id === 'navToTechnologies') {
+//     intro.classList.remove('active');
+//     intro.classList.add('hide');
+//     bio.classList.remove('active');
+//     bio.classList.add('hide');
+//     tech.classList.remove('hide');
+//     tech.classList.add('active');
+//     pro.classList.remove('active');
+//     pro.classList.add('hide');
+//   } else if (event.target.id === 'navToProjects') {
+//     intro.classList.remove('active');
+//     intro.classList.add('hide');
+//     bio.classList.remove('active');
+//     bio.classList.add('hide');
+//     tech.classList.remove('active');
+//     tech.classList.add('hide');
+//     pro.classList.remove('hide');
+//     pro.classList.add('active');
+//   } else if (event.target.id === 'navToBio') {
+//     intro.classList.remove('active');
+//     intro.classList.add('hide');
+//     bio.classList.remove('hide');
+//     bio.classList.add('active');
+//     tech.classList.remove('active');
+//     tech.classList.add('hide');
+//     pro.classList.remove('active');
+//     pro.classList.add('hide');
+//   }
+// });
 
 export default { createProjectCards };

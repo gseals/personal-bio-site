@@ -4,7 +4,7 @@ import './introPage.scss';
 const introPage = () => {
   let domString = '';
   domString = `
-  <div>
+  <div class="introMiddle">
   <h1 class="introText">Gabriel Seals</h1>
   <div class="underline"></div>
   <h2 class="introText">Software and Web Developer | Nashville Tennessee</h2>

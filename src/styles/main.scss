@@ -60,17 +60,6 @@ body {
    color: #FFF;
  }
 
- .fullPage {
-   display: none;
-   width: auto;
-   min-height: initial;
-   padding: 1em 2rem;
- }
-
- .active {
-  display: block;
-}
-
 #page-footer {
     position:fixed;
     bottom:0;
@@ -79,6 +68,11 @@ body {
     background:#000;
 }
 
-.hide {
-  display: none;
+#introPage,
+#bioPage,
+#technologiesPage,
+#projectsPage {
+  padding-top: 55px;
+  height: 100vh;
+  overflow: auto;
 }
