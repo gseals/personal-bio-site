@@ -1,26 +1,28 @@
 .bioBackground {
-  background-color: white;
-  box-shadow: 5px 10px #888888;
-  border-radius: 5%;
-
+  // background-color: white;
+  // box-shadow: 5px 10px #708090;
+  // // border-radius: 5%;
 }
 
 .bioBox {
-  width: 450px;
-  background: rgba(0, 0, 0, 0.4);
+  width: 500px;
+  background: rgba(2, 15, 41, 0.4);
   padding: 40px;
-  text-align: center;
+  height: auto;
   margin: auto;
-  margin-top: 5%;
 }
 
 #bioImg {
   width: 350px;
   background: rgba(0, 0, 0, 0.4);
-  padding: 40px;
+  padding: 25px;
   text-align: center;
   margin: auto;
   margin-top: 5%;
+}
+
+.bioParaText {
+  color: white;
 }
 
 /* old bioImage
