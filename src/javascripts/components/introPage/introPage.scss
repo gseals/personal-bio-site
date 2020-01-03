@@ -4,11 +4,14 @@
 };
 
 .underline {
-  text-align: center;
   position: relative;
   width: 35%;
   height: 3px;
   background-color: silver;
+  // animation-name: example;
+  // animation-fill-mode: backwards;
+  // animation-duration: .6s;
+  // animation-delay: .7s;
 }
 
 .introCenter {
