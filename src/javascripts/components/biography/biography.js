@@ -11,7 +11,7 @@ const bioString = () => {
   </div>
   <div class="col-6">
   <div class="bioBackground">
-  <p>
+  <p class="bioParaText">
       I grew up in a town of roughly 10,000 people. We raised chickens and drove four-wheelers. I decided to go to college because it was what everyong
       else was doing and I didn't stop to question the path: high school, college, job, family, kids, etc. College challenged me and allowed me to meet a
       lot of great people, but I did not put in the amount of time or dedication asked of me so I coasted. It wasn't until I really began considering my place,

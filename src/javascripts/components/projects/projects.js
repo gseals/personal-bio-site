@@ -15,8 +15,8 @@ const createProjectCards = () => {
           <p class="card-text">${project.description}</p>
           <p class="card-text">Created with: ${project.technologiesUsed}</p>
           <div class="text-center">
-          <a href="${project.url}">Demo Site</a>
-          <a href="${project.githubUrl}">GitHub code</a>
+          <a href="${project.url}" target="_blank">Demo Site</a>
+          <a href="${project.githubUrl}" target="_blank">GitHub code</a>
           </div>
           </div>
         </div>`;
