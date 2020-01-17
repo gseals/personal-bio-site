@@ -11,7 +11,7 @@ const init = () => {
   technologies.createTechCards();
   bioString.bioString();
   introPage.introPage();
-  navBar.navbarAction();
+  navBar.allActions();
 };
 
 init();
