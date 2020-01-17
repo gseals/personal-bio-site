@@ -17,16 +17,16 @@ An application allowing the creator to display projects and applications built d
 ## Screenshot(s)
 
 Page Load
-![Main View](https://raw.githubusercontent.com/gseals/personal-bio-site/master/screenshots/Mainview.png)
+![Main View](https://raw.githubusercontent.com/gseals/personal-bio-site/master/screenshots/intro.png)
 
 Bio
-![Bio]()
+![Bio](https://raw.githubusercontent.com/gseals/personal-bio-site/master/screenshots/bio.png)
 
 Technologies
-![Technologies](https://raw.githubusercontent.com/gseals/personal-bio-site/master/screenshots/Technology.png)
+![Technologies](https://raw.githubusercontent.com/gseals/personal-bio-site/master/screenshots/tech.png)
 
 Projects
-![Projects](https://raw.githubusercontent.com/gseals/personal-bio-site/master/screenshots/projects.png)
+![Projects]()
 
 ## Instructions for how to run the project
 
