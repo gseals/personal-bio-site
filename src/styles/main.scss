@@ -1,5 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import './variables';
+@import '../javascripts/components/navbar/navbar.scss';
 
 body {
     background: url(../assets/unsplashSky.jpg) no-repeat center center fixed;
@@ -7,10 +8,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-#navbarRightSide {
-  justify-content: flex-end;
 }
 
 #projectsDisplay {
@@ -83,12 +80,4 @@ body {
 #projectsPage {
   height: 100vh;
   overflow: auto;
-}
-
-.fixNav {
-  position: fixed;
-  right: 0;
-  top: 0;
-  left: 0;
-  z-index: 15;
 }
