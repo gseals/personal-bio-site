@@ -8,11 +8,11 @@ const bioString = () => {
   <div>
   <h3 class="name">Hi! I'm Gabe</h3>
   </div>
-  <div class="row bioBlock">
-  <div class="col-4">
+  <div class="row bioBlock d-flex">
+  <div class="col">
   <img id="bioImg" src="${photo}"/>
   </div>
-  <div class="col-8">
+  <div class="col">
   <div class="bioBackground bioParaText">
   <p>
   I graduated Tennessee Technological University with a degree in English Literature,
