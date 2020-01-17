@@ -8,7 +8,7 @@ const createProjectCards = () => {
     .then((projects) => {
       projects.forEach((project) => {
         domString += `
-        <div class="card projectCard" style="width: 18rem;">
+        <div class="card projectCard " style="width: 18rem;">
           <img src="${project.screenshot}" class="card-img-top" alt="${project.title}">
           <div class="card-body">
           <h5 class="card-title">${project.title}</h5>
