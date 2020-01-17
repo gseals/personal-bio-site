@@ -9,11 +9,18 @@ An application allowing the creator to display projects and applications built d
 
 * HTML5, CSS, and Javascript
 * [Bootstrap](https://getbootstrap.com/): free and open-source CSS framework
+* jQuery
+* ES6 modules
+* Firebase
+* Webpack
 
 ## Screenshot(s)
 
 Page Load
 ![Main View](https://raw.githubusercontent.com/gseals/personal-bio-site/master/screenshots/Mainview.png)
+
+Bio
+![Bio]()
 
 Technologies
 ![Technologies](https://raw.githubusercontent.com/gseals/personal-bio-site/master/screenshots/Technology.png)
@@ -27,6 +34,10 @@ Projects
 * Install [http-server](https://www.npmjs.com/package/http-server) from npm.
 * At the root of this project, run the following command: `hs -p 8888`.
 * In your browser, navigate to `https://localhost:8888`;
+
+## Demo
+
+[Check out the app here!](https://personal-bio-site-f8721.firebaseapp.com)
 
 ## Contributors
 
