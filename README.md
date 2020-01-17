@@ -26,7 +26,7 @@ Technologies
 ![Technologies](https://raw.githubusercontent.com/gseals/personal-bio-site/master/screenshots/tech.png)
 
 Projects
-![Projects]()
+![Projects](https://raw.githubusercontent.com/gseals/personal-bio-site/master/screenshots/proj.png)
 
 ## Instructions for how to run the project
 
