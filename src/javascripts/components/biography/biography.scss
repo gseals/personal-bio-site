@@ -1,28 +1,36 @@
-.bioBackground {
-  // background-color: white;
-  // box-shadow: 5px 10px #708090;
-  // // border-radius: 5%;
-}
-
 .bioBox {
-  width: 500px;
+  // width: 500px;
   background: rgba(2, 15, 41, 0.4);
   padding: 40px;
   height: auto;
   margin: auto;
+  // position: relative;
 }
 
 #bioImg {
-  width: 350px;
+  width: 450px;
   background: rgba(0, 0, 0, 0.4);
   padding: 25px;
   text-align: center;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 1%;
 }
 
 .bioParaText {
   color: white;
+  // margin: 5em;
+  max-width: 900px;
+  // text-align: justify;
+  margin: 1em;
+  width: 90%;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 /* old bioImage
@@ -34,3 +42,9 @@ margin-bottom: 20px; */
 .bioHi {
   color: white;
 }
+
+// .col {
+//   flex-basis: 0;
+//   flex-grow: 1;
+//   max-width: 100%;
+// }
