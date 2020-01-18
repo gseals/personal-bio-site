@@ -11,6 +11,9 @@ const bioString = () => {
   <div class="row bioBlock d-flex">
   <div class="col">
   <img id="bioImg" src="${photo}"/>
+  <a href="mailto:sealsgj@gmail.com" target="_blank" class="fas fa-mail-bulk"></a>
+  <a href="https://www.linkedin.com/in/gabriel-seals-063238188" target="_blank" class="fab fa-linkedin-in"></a>
+  <a href="https://github.com/gseals" target="_blank" class="fab fa-github"></a>
   </div>
   <div class="col">
   <div class="bioBackground bioParaText">

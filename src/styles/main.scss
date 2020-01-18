@@ -1,6 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import './variables';
-@import '../javascripts/components/navbar/navbar.scss';
+// @import '../javascripts/components/navbar/navbar.scss';
 
 body {
     background: url(../assets/unsplashSky.jpg) no-repeat center center fixed;
@@ -104,6 +104,7 @@ body {
   position: fixed;
   bottom: 50px;
   left: 0;
+  bottom: 0;
   background-color: #DDD;
   color: #555;
   text-align: center;
