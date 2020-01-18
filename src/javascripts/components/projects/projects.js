@@ -69,6 +69,6 @@ const createProjectCards = () => {
 //     pro.classList.remove('active');
 //     pro.classList.add('hide');
 //   }
-// });
+// }); Need to remove?
 
 export default { createProjectCards };
