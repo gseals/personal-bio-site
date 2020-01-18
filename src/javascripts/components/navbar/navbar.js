@@ -1,8 +1,8 @@
 import $ from 'jquery';
 
 const navbarAction = () => {
-  $('.third-button').on('click', () => {
-    $('.animated-icon3').toggleClass('open');
+  $('.hamburgerButton').on('click', () => {
+    $('.hamburgerNav3').toggleClass('open');
   });
 };
 
@@ -10,12 +10,12 @@ const buttonToTop = () => {
   $(window).scroll(() => {
     const height = $(window).scrollTop();
     if (height > 100) {
-      $('#back2Top').fadeIn();
+      $('#upArrow').fadeIn();
     } else {
-      $('#back2Top').fadeOut();
+      $('#upArrow').fadeOut();
     }
   });
-  $('#back2Top').click((e) => {
+  $('#upArrow').click((e) => {
     e.preventDefault();
     $('html, body').animate({ scrollTop: 0 }, 'slow');
     return false;

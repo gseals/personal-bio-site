@@ -10,7 +10,7 @@
   float: right!important;
 }
 
-.animated-icon3 {
+.hamburgerNav3 {
   width: 30px;
   height: 20px;
   position: relative;
@@ -26,7 +26,7 @@
   cursor: pointer;
   }
   
-  .animated-icon3 span {
+  .hamburgerNav3 span {
   display: block;
   position: absolute;
   height: 3px;
@@ -44,11 +44,11 @@
   transition: .25s ease-in-out;
   }
   
-  .animated-icon3 span {
+  .hamburgerNav3 span {
   background: #f3e5f5;
   }
   
-  .animated-icon3 span:nth-child(1) {
+  .hamburgerNav3 span:nth-child(1) {
   top: 0px;
   -webkit-transform-origin: left center;
   -moz-transform-origin: left center;
@@ -56,7 +56,7 @@
   transform-origin: left center;
   }
   
-  .animated-icon3 span:nth-child(2) {
+  .hamburgerNav3 span:nth-child(2) {
   top: 10px;
   -webkit-transform-origin: left center;
   -moz-transform-origin: left center;
@@ -64,7 +64,7 @@
   transform-origin: left center;
   }
   
-  .animated-icon3 span:nth-child(3) {
+  .hamburgerNav3 span:nth-child(3) {
   top: 20px;
   -webkit-transform-origin: left center;
   -moz-transform-origin: left center;
@@ -72,7 +72,7 @@
   transform-origin: left center;
   }
   
-  .animated-icon3.open span:nth-child(1) {
+  .hamburgerNav3.open span:nth-child(1) {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
@@ -81,12 +81,12 @@
   left: 8px;
   }
   
-  .animated-icon3.open span:nth-child(2) {
+  .hamburgerNav3.open span:nth-child(2) {
   width: 0%;
   opacity: 0;
   }
   
-  .animated-icon3.open span:nth-child(3) {
+  .hamburgerNav3.open span:nth-child(3) {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
