@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import './navbar.scss';
 
 const navbarAction = () => {
   $('.hamburgerButton').on('click', () => {
