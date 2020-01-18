@@ -9,7 +9,7 @@ const bioString = () => {
   <h3 class="name">Hi! I'm Gabe</h3>
   </div>
   <div class="row bioBlock d-flex">
-  <div class="col">
+  <div class="col text-center">
   <img id="bioImg" src="${photo}"/>
   <a href="mailto:sealsgj@gmail.com" target="_blank" class="fas fa-mail-bulk"></a>
   <a href="https://www.linkedin.com/in/gabriel-seals-063238188" target="_blank" class="fab fa-linkedin-in"></a>
