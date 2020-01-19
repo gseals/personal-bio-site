@@ -30,7 +30,7 @@ const bioString = () => {
   </p>
   <p>
   The road from there to here looks like this: I did some remote editing for a
-  literary magazine on the West Coast, acted as poetry judging for local contests,
+  literary magazine on the West Coast, acted as poetry judge for local contests,
   assisted professors in grading essays, and published poems in literary journals
   like BOAAT, Frontier Poetry, and Rockvale Review.
   </p>
@@ -38,8 +38,10 @@ const bioString = () => {
   In late 2018, I began to seriously consider how my time should be spent:
   should I continue waiting for opportunities to become available, or should
   I seek an opportunity and pursue it with the intention of spending the rest
-  of my life doing it? Luckily, I had some experience with coding as a graduate
-  school class required us to build basic HTML and CSS websites. As the
+  of my life doing it? This search led me to NSS, to an info session in December, 
+  to a JumpStart in March, and to the Bootcamp in August.
+  My path to software development began in graduate
+  school as one seminar required us to build basic HTML and CSS websites. As the
   Office Administrator for Belmont University’s campus clinic, I serve as the
   point person for changes in our EHR - Medicat - while also wielding control
   over our sector of Hannon Hill’s Cascade Content Management System.
