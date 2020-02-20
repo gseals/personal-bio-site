@@ -8,14 +8,14 @@ const bioString = () => {
   <div>
   <h3 class="name">Hi! I'm Gabe</h3>
   </div>
-  <div class="row bioBlock d-flex">
-  <div class="col text-center">
+  <div class="bioBlock">
+  <div class="modColImg text-center">
   <img id="bioImg" src="${photo}"/>
   <a href="mailto:sealsgj@gmail.com" target="_blank" class="fas fa-mail-bulk"></a>
   <a href="https://www.linkedin.com/in/gabriel-seals-063238188" target="_blank" class="fab fa-linkedin-in"></a>
   <a href="https://github.com/gseals" target="_blank" class="fab fa-github"></a>
   </div>
-  <div class="col">
+  <div class="modCol">
   <div class="bioBackground bioParaText">
   <p>
   I graduated Tennessee Technological University with a degree in English Literature,

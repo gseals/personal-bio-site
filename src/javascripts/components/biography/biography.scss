@@ -1,10 +1,14 @@
+.bioBlock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .bioBox {
-  // width: 500px;
   background: rgba(2, 15, 41, 0.4);
   padding: 40px;
   height: auto;
   margin: auto;
-  // position: relative;
 }
 
 #bioImg {
@@ -14,6 +18,12 @@
   text-align: center;
   margin: auto;
   margin-top: 1%;
+}
+
+@media only screen and (max-width: 450px) {
+  #bioImg {
+    width: 100%;
+  }
 }
 
 .bioParaText {
@@ -33,4 +43,24 @@ p {
 
 .bioHi {
   color: white;
+}
+
+.modCol {
+  flex-basis: 0;
+  flex-grow: 1;
+  min-width: 500px;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media only screen and (max-width: 425px) {
+  .modCol {
+    min-width: 100%;
+  }
+}
+
+.modColImg {
+  max-width: 500px;
 }

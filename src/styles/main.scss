@@ -66,11 +66,16 @@ body {
     background:#000;
 }
 
-#introPage,
-#technologiesPage{
+#introPage{
   padding-top: 55px;
   height: 100vh;
   overflow: hidden;
+}
+
+#technologiesPage {
+  padding-top: 55px;
+  height: 100vh;
+  overflow: auto;
 }
 
 #bioPage {
