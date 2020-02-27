@@ -1,7 +1,7 @@
 {
   "project1": {
     "title": "Temperature Converter",
-    "screenshot": "https://raw.githubusercontent.com/gseals/temp-converter/master/screenshots/Mainview.png",
+    "screenshot": "https://raw.githubusercontent.com/gseals/temp-converter/master/screenshots/temp1.png",
     "description": "An application that allows users to convert Fahrenheit to Celsius or Celsius to Fahrenheit.",
     "technologiesUsed": "HTML, CSS, Bootstrap, Vanilla JavaScript",
     "available": true,
