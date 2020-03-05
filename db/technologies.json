@@ -63,5 +63,15 @@
     "title": "webpack",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDEyMDAiIHdpZHRoPSIyNTAwIiBoZWlnaHQ9IjI1MDAiPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik02MDAgMGw1MzAuMyAzMDB2NjAwTDYwMCAxMjAwIDY5LjcgOTAwVjMwMHoiLz48cGF0aCBmaWxsPSIjOGVkNmZiIiBkPSJNMTAzNS42IDg3OS4zbC00MTguMSAyMzYuNVY5MzEuNkw4NzggNzg4LjNsMTU3LjYgOTF6bTI4LjYtMjUuOVYzNTguOGwtMTUzIDg4LjNWNzY1bDE1MyA4OC40em0tOTAxLjUgMjUuOWw0MTguMSAyMzYuNVY5MzEuNkwzMjAuMyA3ODguM2wtMTU3LjYgOTF6bS0yOC42LTI1LjlWMzU4LjhsMTUzIDg4LjNWNzY1bC0xNTMgODguNHpNMTUyIDMyNi44TDU4MC44IDg0LjJ2MTc4LjFMMzA2LjEgNDEzLjRsLTIuMSAxLjItMTUyLTg3Ljh6bTg5NC4zIDBMNjE3LjUgODQuMnYxNzguMWwyNzQuNyAxNTEuMSAyLjEgMS4yIDE1Mi04Ny44eiIvPjxwYXRoIGZpbGw9IiMxYzc4YzAiIGQ9Im01ODAuOCA4ODkuN2wtMjU3LTE0MS4zdi0yODBsMjU3IDE0OC40djI3Mi45bTM2LjcgMGwyNTctMTQxLjN2LTI4MGwtMjU3IDE0OC40djI3Mi45bS0yNzYuMy00NTMuN2wyNTgtMTQxLjkgMjU4IDE0MS45LTI1OCAxNDktMjU4LTE0OSIvPjwvc3ZnPg==",
     "webpageURL": "https://webpack.js.org/"
+  },
+  "technology14": {
+    "title": "C#",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/C_Sharp_logo.svg/1200px-C_Sharp_logo.svg.png",
+    "webpageURL": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+  },
+  "technology15": {
+    "title": "Visual Studio",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Visual_Studio_2017_Logo.svg/1024px-Visual_Studio_2017_Logo.svg.png",
+    "webpageURL": "https://visualstudio.microsoft.com/"
   }
 }
