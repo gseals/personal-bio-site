@@ -34,5 +34,14 @@
     "available": true,
     "url": "https://jurassic-park-26ffa.firebaseapp.com/",
     "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-jurassic-world"
+  },
+  "project5": {
+    "title": "Capstone: writersResort",
+    "screenshot": "https://raw.githubusercontent.com/gseals/writersResort/master/screenshots/auth.png",
+    "description": "writersResort allows users to post poems and invite feedback on those poems. Each user has access to edit and delete their own posts, via Axios calls, as well as any comments they've created. Each deleted post also deletes any comments associated with the post. Authentication occurs through Google and also pulls user's displayURL and Google Username.",
+    "technologiesUsed": "HTML, CSS/SCSS, Bootstrap, Firebase, Axios, ReactJS. React Routing, Reactstrap, MomentJS",
+    "available": true,
+    "url": "https://writersresort-97d54.firebaseapp.com/auth",
+    "githubUrl": "https://github.com/gseals/writersResort"
   }
 }
