@@ -23,9 +23,21 @@ const buttonToTop = () => {
   });
 };
 
+const navBarColorFade = () => {
+  $(window).scroll(() => {
+    const newHeight = $(window).scrollTop();
+    if (newHeight > 500) {
+      $('#navBarModify').addClass('navColor');
+    } else if (newHeight < 500) {
+      $('#navBarModify').removeClass('navColor');
+    }
+  });
+};
+
 const allActions = () => {
   navbarAction();
   buttonToTop();
+  navBarColorFade();
 };
 
 export default { allActions };
