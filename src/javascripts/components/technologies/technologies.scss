@@ -6,6 +6,11 @@
 
 .imgSize {
   width: 7rem;
+  transition: all 1s;
+}
+
+.imgSize:hover {
+  transform: scale(1.1);
 }
 
 .techImg {
