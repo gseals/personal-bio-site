@@ -11,7 +11,7 @@ const bioString = () => {
   <div class="bioBlock">
   <div class="modColImg text-center">
   <img id="bioImg" src="${photo}"/>
-  <a href="mailto:sealsgj@gmail.com" target="_blank" class="fas fa-mail-bulk"></a>
+  <a href="mailto:webdevseals@gmail.com" target="_blank" class="fas fa-mail-bulk"></a>
   <a href="https://www.linkedin.com/in/gabriel-seals-063238188" target="_blank" class="fab fa-linkedin-in"></a>
   <a href="https://github.com/gseals" target="_blank" class="fab fa-github"></a>
   </div>

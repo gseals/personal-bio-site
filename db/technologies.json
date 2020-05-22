@@ -83,5 +83,15 @@
     "title": "Postman",
     "image": "https://nordicapis.com/wp-content/uploads/postman-logo-2.png",
     "webpageURL": "https://www.postman.com/"
+  },
+  "technology18": {
+    "title": "Medicat",
+    "image": "https://medicat.com/wp-content/uploads/medicat-logo-2x.png",
+    "webpageURL": "https://medicat.com/"
+  },
+  "technology19": {
+    "title": "Hannon HIll Cascade CMS",
+    "image": "https://www.upstate.edu/cascade-training/images/hannonhill_logo.jpg",
+    "webpageURL": "https://www.hannonhill.com/products/cascade-cms/"
   }
 }
