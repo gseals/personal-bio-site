@@ -19,7 +19,7 @@ const createProjectCards = () => {
                   <p class="card-text">${project.description}</p>
                   <p class="card-text d-inline">Created with: ${project.technologiesUsed}</p>
                   <div class="d-flex justify-content-between">
-                  <a href="${project.url}" rel="noopener noreferrer" target="_blank role="button" class="btn btn-primary">Demo Site</a>
+                  <a href="${project.url}" rel="noopener noreferrer" target="_blank" role="button" class="btn btn-primary">Demo Site</a>
                   <a href="${project.githubUrl}" rel="noopener noreferrer" target="_blank" role="button" class="btn btn-primary">GitHub code</a>
                 </div>
                 </div>
