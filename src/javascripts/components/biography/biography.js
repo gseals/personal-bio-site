@@ -11,9 +11,9 @@ const bioString = () => {
   <div class="bioBlock">
   <div class="modColImg text-center">
   <img id="bioImg" src="${photo}"/>
-  <a href="mailto:webdevseals@gmail.com" target="_blank" class="fas fa-mail-bulk"></a>
-  <a href="https://www.linkedin.com/in/gabriel-seals-063238188" target="_blank" class="fab fa-linkedin-in"></a>
-  <a href="https://github.com/gseals" target="_blank" class="fab fa-github"></a>
+  <a href="mailto:webdevseals@gmail.com" rel="noopener noreferrer" target="_blank" class="fas fa-mail-bulk"></a>
+  <a href="https://www.linkedin.com/in/gabriel-seals-063238188" rel="noopener noreferrer" target="_blank" class="fab fa-linkedin-in"></a>
+  <a href="https://github.com/gseals" rel="noopener noreferrer" target="_blank" class="fab fa-github"></a>
   </div>
   <div class="modCol">
   <div class="bioBackground bioParaText">
@@ -32,9 +32,9 @@ const bioString = () => {
   The road from there to here looks like this: I did some remote editing for a
   literary magazine on the West Coast, acted as poetry judge for local contests,
   assisted professors in grading essays, and published poems in literary journals
-  like <a href="https://rockvalereview.com/issues/issue-1/kintsugi-by-gabriel-seals/" target="_blank">Rockvale Review</a>, 
-  <a href="http://www.boaatpress.com/coronation" target="_blank">BOAAT</a>,
-  and <a href="https://www.frontierpoetry.com/2018/10/05/poetry-gabriel-seals/" target="_blank">Frontier Poetry</a>.
+  like <a href="https://rockvalereview.com/issues/issue-1/kintsugi-by-gabriel-seals/" rel="noopener noreferrer" target="_blank">Rockvale Review</a>, 
+  <a href="http://www.boaatpress.com/coronation" rel="noopener noreferrer" target="_blank">BOAAT</a>,
+  and <a href="https://www.frontierpoetry.com/2018/10/05/poetry-gabriel-seals/" rel="noopener noreferrer" target="_blank">Frontier Poetry</a>.
   </p>
   <p>
   In late 2018, I began to seriously consider how my time should be spent:

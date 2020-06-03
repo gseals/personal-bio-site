@@ -11,7 +11,7 @@ const createTechCards = () => {
         <div class="cardSize">
           <p class="d-flex flex-row flex-wrap justify-content-between text-center">
           <div class="techImg">
-          <a href="${technology.webpageURL}" target="_blank">
+          <a href="${technology.webpageURL}" ="_blank">
             <img class="imgSize" src="${technology.image}" />
           </a>
             </div>
