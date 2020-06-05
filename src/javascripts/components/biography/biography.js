@@ -56,6 +56,10 @@ const bioString = () => {
   knowledge-base that can be called upon to complete future tasks. In essence, time
   in equals time out and then some.</p>
   </p>
+  <p>
+  p.s. - this is the first <a href="http://campus.belmont.edu/students/f16/sealsg/" rel="noopener noreferrer" target="_blank">website</a> I 
+  ever built using only HTML and CSS.
+  </p>
   </div>
   </div>
   </div>
