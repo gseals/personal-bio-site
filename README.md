@@ -7,12 +7,15 @@ An application allowing the creator to display projects and applications built d
 
 ## Technologies Used
 
-* HTML5, CSS, and Javascript
-* [Bootstrap](https://getbootstrap.com/): free and open-source CSS framework
-* jQuery
-* ES6 modules
-* Firebase
-* Webpack
+* [HTML5](https://html.spec.whatwg.org/multipage/)
+* [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
+* [JavaScript](https://www.javascript.com/)
+* [Bootstrap 4.4.1](https://getbootstrap.com/)
+* [jQuery 3.4.1](https://jquery.com/)
+* [ES6 modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+* [Firebase 7.6.1](https://firebase.google.com/)
+* [Webpack 4.41.4](https://webpack.js.org/)
+* [Axios 0.19.0](https://www.npmjs.com/package/axios)
 
 ## Screenshot(s)
 
@@ -33,7 +36,7 @@ Projects
 * Clone down this project from [Github](https://github.com/gseals/personal-bio-site).
 * Install [http-server](https://www.npmjs.com/package/http-server) from npm.
 * At the root of this project, run the following command: `hs -p 8888`.
-* In your browser, navigate to `https://localhost:8888`;
+* In your browser, navigate to `https://localhost:8888`
 
 ## Demo
 
