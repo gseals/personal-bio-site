@@ -26,7 +26,7 @@ Bio
 ![Bio](https://raw.githubusercontent.com/gseals/personal-bio-site/master/screenshots/bio2.png)
 
 Technologies
-![Technologies](https://raw.githubusercontent.com/gseals/personal-bio-site/master/screenshots/tech2.png)
+![Technologies](https://raw.githubusercontent.com/gseals/personal-bio-site/master/screenshots/tech3.png)
 
 Projects
 ![Projects](https://raw.githubusercontent.com/gseals/personal-bio-site/master/screenshots/proj2.png)
