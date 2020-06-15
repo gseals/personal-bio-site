@@ -11,9 +11,10 @@ const bioString = () => {
   <div class="bioBlock">
   <div class="modColImg text-center">
   <img id="bioImg" src="${photo}"/>
-  <a href="mailto:webdevseals@gmail.com" rel="noopener noreferrer" target="_blank" class="fas fa-mail-bulk"></a>
-  <a href="https://www.linkedin.com/in/gabriel-seals-063238188" rel="noopener noreferrer" target="_blank" class="fab fa-linkedin-in"></a>
-  <a href="https://github.com/gseals" rel="noopener noreferrer" target="_blank" class="fab fa-github"></a>
+  <a href="mailto:webdevseals@gmail.com" rel="noopener noreferrer" title="Email" target="_blank" class="fas fa-mail-bulk"></a>
+  <a href="https://www.linkedin.com/in/gabriel-seals-063238188" rel="noopener noreferrer" title="LinkedIn" target="_blank" class="fab fa-linkedin-in"></a>
+  <a href="https://github.com/gseals" rel="noopener noreferrer" title="GitHub" target="_blank" class="fab fa-github"></a>
+  <a href="" rel="noopener noreferrer" title="Résumé" target="_blank" class="fas fa-file"></a>
   </div>
   <div class="modCol">
   <div class="bioBackground bioParaText">
