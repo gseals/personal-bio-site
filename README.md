@@ -3,7 +3,7 @@
 
 ## Description
 
-An application allowing the creator to display projects and applications built during his time at [Nashville Software School](http://nashvillesoftwareschool.com/).
+A single page application allowing the creator to display projects and applications built during his time at [Nashville Software School](http://nashvillesoftwareschool.com/).
 
 ## Technologies Used
 
