@@ -7,15 +7,16 @@ A single-page application allowing the creator to display projects and applicati
 
 ## Technologies Used
 
-* [HTML5](https://html.spec.whatwg.org/multipage/)
-* [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
-* [JavaScript](https://www.javascript.com/)
-* [Bootstrap 4.4.1](https://getbootstrap.com/)
-* [jQuery 3.4.1](https://jquery.com/)
-* [ES6 modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
-* [Firebase 7.6.1](https://firebase.google.com/)
-* [Webpack 4.41.4](https://webpack.js.org/)
 * [Axios 0.19.0](https://www.npmjs.com/package/axios)
+* [Bootstrap 4.4.1](https://getbootstrap.com/)
+* [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
+* [ES6 modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+* [ESLint 14.0.0](https://eslint.org/)
+* [Firebase 7.6.1](https://firebase.google.com/)
+* [HTML5](https://html.spec.whatwg.org/multipage/)
+* [JavaScript](https://www.javascript.com/)
+* [jQuery 3.4.1](https://jquery.com/)
+* [Webpack 4.41.4](https://webpack.js.org/)
 
 ## Screenshot(s)
 
