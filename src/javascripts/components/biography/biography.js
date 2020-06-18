@@ -19,13 +19,13 @@ const bioString = () => {
   <div class="modCol">
   <div class="bioBackground bioParaText">
   <p>
-  I graduated Tennessee Technological University with a degree in English Literature,
-  married the sweetest girl I’d ever met, and swiftly moved to Nashville.
+  I graduated <a href="https://www.tntech.edu/cas/english/" rel="noopener noreferrer" target="_blank">Tennessee Technological University</a>
+  with a degree in English Literature, married the sweetest girl I’d ever met, and swiftly moved to Nashville.
   </p>
   <p>
-  While my wife pursued her doctorate, I pursued my Masters in
-  English through Belmont University. I attended grad school both
-  as a way to further my education and as a way to prove I could do
+  While my wife pursued her doctorate, I pursued my Masters in English through 
+  <a href="http://www.belmont.edu/grad-english/index.html" rel="noopener noreferrer" target="_blank">Belmont University</a>.
+  I attended grad school both as a way to further my education and as a way to prove I could do
   the work, contribute interesting ideas, provide effective feedback,
   and work towards a goal. My wife and I graduated in 2017.
   </p>
@@ -38,16 +38,16 @@ const bioString = () => {
   and <a href="https://www.frontierpoetry.com/2018/10/05/poetry-gabriel-seals/" rel="noopener noreferrer" target="_blank">Frontier Poetry</a>.
   </p>
   <p>
-  In late 2018, I began to seriously consider how my time should be spent:
-  should I continue waiting for opportunities to become available, or should
-  I seek an opportunity and pursue it with the intention of spending the rest
-  of my life doing it? This search led me to NSS, to an info session in December, 
-  to a JumpStart in March, and to the Bootcamp in August.
-  My path to software development began in graduate
-  school as one seminar required us to build basic HTML and CSS websites. As the
-  Office Administrator for Belmont University’s campus clinic, I serve as the
-  point person for changes in our EHR - Medicat - while also wielding control
-  over our sector of Hannon Hill’s Cascade Content Management System.
+  In late 2018, I began to seriously consider how my time should be spent: should I continue
+  waiting for opportunities to become available, or should I seek an opportunity and pursue
+  it with the intention of spending the rest of my life doing it? This search led me to
+  <a href="http://nashvillesoftwareschool.com/" rel="noopener noreferrer" target="_blank">Nashville Software School</a>, 
+  to an info session in December, to a JumpStart in March, and to the Bootcamp in August.
+  My path to software development began in graduate school as one seminar required us to build
+  basic HTML and CSS websites. As the Office Administrator for Belmont University’s campus
+  clinic, I serve as the point person for changes in our EHR - 
+  <a href="https://medicat.com/" rel="noopener noreferrer" target="_blank">Medicat</a> - while also wielding control
+  over our sector of <a href="https://www.hannonhill.com/products/cascade-cms/index.html" rel="noopener noreferrer" target="_blank">Hannon Hill’s Cascade Content Management System</a>.
   </p>
   <p>
   The thing that excites me most about development rests on the idea that

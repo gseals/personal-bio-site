@@ -24,7 +24,7 @@ Page Load
 ![Main View](https://raw.githubusercontent.com/gseals/personal-bio-site/master/screenshots/intro2.png)
 
 Bio
-![Bio](https://raw.githubusercontent.com/gseals/personal-bio-site/master/screenshots/bio3.png)
+![Bio](https://raw.githubusercontent.com/gseals/personal-bio-site/master/screenshots/bio4.png)
 
 Technologies
 ![Technologies](https://raw.githubusercontent.com/gseals/personal-bio-site/master/screenshots/tech3.png)
