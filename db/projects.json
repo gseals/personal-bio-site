@@ -3,7 +3,7 @@
     "title": "Temperature Converter",
     "screenshot": "https://raw.githubusercontent.com/gseals/temp-converter/master/screenshots/temp1.png",
     "description": "An application that allows users to convert Fahrenheit to Celsius or Celsius to Fahrenheit.",
-    "technologiesUsed": "HTML, CSS, Bootstrap, Vanilla JavaScript",
+    "technologiesUsed": "Bootstrap, CSS, HTML, Vanilla JavaScript",
     "available": true,
     "url": "https://temperature-converter-9b0b1.firebaseapp.com",
     "githubUrl": "https://github.com/gseals/temp-converter"
@@ -12,7 +12,7 @@
     "title": "Pinterest",
     "screenshot": "https://raw.githubusercontent.com/gseals/pinterest/master/screenshots/loggedIn.png",
     "description": "A Pinterest-style application allowing users to create boards and pins for whatever they like.",
-    "technologiesUsed": "HTML, SCSS, Vanilla JavaScript, Bootstrap, ES6 Modules, jQuery, Firebase, Axios",
+    "technologiesUsed": "Axios, Bootstrap, CSS3, ESLint, Firebase, HTML5, JavaScript/ES6, jQuery, SCSS, Webpack",
     "available": true,
     "url": "https://pinterest-9ab9b.firebaseapp.com",
     "githubUrl": "https://github.com/gseals/pinterest"
@@ -21,7 +21,7 @@
     "title": "Le Baguette",
     "screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-michelin-restaurant/master/screenshots/homeView.png",
     "description": "A team-built website utilizing Firebase, Axios, and google authentication that allows users to create, display, update, and delete (CRUD) data from Firebase that immediately reflects on the loaded page. As a part of this group, I contributed the staff page, the filter function on the staff page, and the layout of the homepage.",
-    "technologiesUsed": "HTML, SCSS, Vanilla JavaScript, Bootstrap, ES6 Modules, jQuery, Firebase, Axios",
+    "technologiesUsed": "Axios, Bootstrap, CSS3, ESLint, Firebase, HTML5, JavaScript/ES6, jQuery, Moment.js, SCSS, Webpack",
     "available": true,
     "url": "https://le-baguette-af839.web.app/",
     "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-michelin-restaurant"
@@ -30,7 +30,7 @@
     "title": "Jurassic World",
     "screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-jurassic-world/master/images/readmeImg/homepageUpdate.png",
     "description": "The second of our team websites, this project also utilized Firebase, Axios, and google authentication we took over from a different group so we performed code refactoring and code cleanup. Additionally, I contributed to retrieving staff data and assigning them to rides as well as creating the modal allowing for that selection.",
-    "technologiesUsed": "HTML, SCSS, Vanilla JavaScript, Bootstrap, ES6 Modules, jQuery, Firebase, Axios",
+    "technologiesUsed": "Axios, Bootstrap, CSS3, ESLint, Firebase, Fontawesome, HTML5, JavaScript/ES6, jQuery, Moment.js, Node-cron, SCSS, Webpack",
     "available": true,
     "url": "https://jurassic-park-26ffa.firebaseapp.com/",
     "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-jurassic-world"
@@ -39,9 +39,18 @@
     "title": "Capstone: writersResort",
     "screenshot": "https://raw.githubusercontent.com/gseals/writersResort/master/screenshots/auth.png",
     "description": "writersResort allows users to post poems and invite feedback on those poems. Each user has access to edit and delete their own posts, via Axios calls, as well as any comments they've created. Each deleted post also deletes any comments associated with the post. Authentication occurs through Google and also pulls user's displayURL and Google Username.",
-    "technologiesUsed": "HTML, CSS/SCSS, Bootstrap, Firebase, Axios, ReactJS. React Routing, Reactstrap, MomentJS",
+    "technologiesUsed": "Axios, Bootstrap, CSS3, ESLint, Firebase, Fontawesome-svg-core, HTML5, JavaScript/ES6, Moment.js, Prop-Types, ReactDOM, ReactJS, React Flip Move, React-fontawesome, React Router DOM, Reactstrap, SCSS",
     "available": true,
     "url": "https://writersresort-97d54.firebaseapp.com/auth",
     "githubUrl": "https://github.com/gseals/writersResort"
+  },
+  "project6": {
+    "title": "CoVID-19 Tracker",
+    "screenshot": "https://raw.githubusercontent.com/gseals/covid-19-tracker/master/screenshots/Responsive.png",
+    "description": "This app tracks the number of confirmed cases, the number of recovered cases, and the number of deaths for CoVID-19 data from a global and country (181 countries) perspective. All data pulled from this <a href=\"https:\/\/covid19.mathdro.id\/api\" rel=\"noopener noreferrer\" title=\"API\" target=\"_blank\">API</a> and last date/time of information gathered displayed in cards at top of the page.",
+    "technologiesUsed": "Axios, Chart.js, Classnames, CSS3, ESLint, HTML5, JavaScript/ES6, Material-UI, Moment.js, ReactDOM, ReactJS, React-ChartJS-2, React CountUp, React Hooks",
+    "available": true,
+    "url": "https://gseals.github.io/covid-19-tracker/",
+    "githubUrl": "https://github.com/gseals/covid-19-tracker"
   }
 }
