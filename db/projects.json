@@ -1,5 +1,5 @@
 {
-  "project1": {
+  "project00": {
     "title": "Temperature Converter",
     "screenshot": "https://raw.githubusercontent.com/gseals/temp-converter/master/screenshots/temp1.png",
     "description": "An application that allows users to convert Fahrenheit to Celsius or Celsius to Fahrenheit.",
@@ -8,7 +8,7 @@
     "url": "https://temperature-converter-9b0b1.firebaseapp.com",
     "githubUrl": "https://github.com/gseals/temp-converter"
   },
-  "project2": {
+  "project01": {
     "title": "Pinterest",
     "screenshot": "https://raw.githubusercontent.com/gseals/pinterest/master/screenshots/loggedIn.png",
     "description": "A Pinterest-style application allowing users to create boards and pins for whatever they like.",
@@ -17,7 +17,7 @@
     "url": "https://pinterest-9ab9b.firebaseapp.com",
     "githubUrl": "https://github.com/gseals/pinterest"
   },
-  "project3": {
+  "project02": {
     "title": "Le Baguette",
     "screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-michelin-restaurant/master/screenshots/homeView.png",
     "description": "A team-built website utilizing Firebase, Axios, and google authentication that allows users to create, display, update, and delete (CRUD) data from Firebase that immediately reflects on the loaded page. As a part of this group, I contributed the staff page, the filter function on the staff page, and the layout of the homepage.",
@@ -26,7 +26,7 @@
     "url": "https://le-baguette-af839.web.app/",
     "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-michelin-restaurant"
   },
-  "project4": {
+  "project03": {
     "title": "Jurassic World",
     "screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-jurassic-world/master/images/readmeImg/homepageUpdate.png",
     "description": "The second of our team websites, this project also utilized Firebase, Axios, and google authentication we took over from a different group so we performed code refactoring and code cleanup. Additionally, I contributed to retrieving staff data and assigning them to rides as well as creating the modal allowing for that selection.",
@@ -35,7 +35,7 @@
     "url": "https://jurassic-park-26ffa.firebaseapp.com/",
     "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-jurassic-world"
   },
-  "project5": {
+  "project04": {
     "title": "Capstone: writersResort",
     "screenshot": "https://raw.githubusercontent.com/gseals/writersResort/master/screenshots/auth.png",
     "description": "writersResort allows users to post poems and invite feedback on those poems. Each user has access to edit and delete their own posts, via Axios calls, as well as any comments they've created. Each deleted post also deletes any comments associated with the post. Authentication occurs through Google and also pulls user's displayURL and Google Username.",
@@ -44,7 +44,7 @@
     "url": "https://writersresort-97d54.firebaseapp.com/auth",
     "githubUrl": "https://github.com/gseals/writersResort"
   },
-  "project6": {
+  "project05": {
     "title": "React Movie Database",
     "screenshot": "https://raw.githubusercontent.com/gseals/React-Movie-Database/master/screenshots/Results.png",
     "description": "This application pulls from the <a href=\"http:\/\/www.omdbapi.com\/\" rel=\"noopener noreferrer\" title=\"OMDB API\" target=\"_blank\">OMDB</a> API and allows users to search for movies by title. If an incoherent or incorrect text string is placed in the search box, an alert appears asking for a new string. Results are limited to the top 10 results from the database.",
@@ -53,7 +53,7 @@
     "url": "https://gseals.github.io/React-Movie-Database/",
     "githubUrl": "https://github.com/gseals/React-Movie-Database"
   },
-  "project7": {
+  "project06": {
     "title": "CoVID-19 Tracker",
     "screenshot": "https://raw.githubusercontent.com/gseals/covid-19-tracker/master/screenshots/Responsive.png",
     "description": "This app tracks the number of confirmed cases, the number of recovered cases, and the number of deaths for CoVID-19 data from a global and country (181 countries) perspective. All data pulled from this <a href=\"https:\/\/covid19.mathdro.id\/api\" rel=\"noopener noreferrer\" title=\"CoVID API\" target=\"_blank\">API</a> and last date/time of information gathered displayed in cards at top of the page.",
@@ -61,5 +61,32 @@
     "available": true,
     "url": "https://gseals.github.io/covid-19-tracker/",
     "githubUrl": "https://github.com/gseals/covid-19-tracker"
+  },
+  "project07": {
+    "title": "React Weather App",
+    "screenshot": "https://raw.githubusercontent.com/gseals/ReactWeatherApp/master/screenshots/Search%20Results%20above%2060.png",
+    "description": "This application utilizes the <a href=\"https:\/\/openweathermap.org\/api\" rel=\"noopener noreferrer\" title=\"openweathermap API\" target=\"_blank\">openweathermap API</a> and allows users to search for current weather based on city name. For good measure, since the API doesn't specify the state the city is in, latitude and longitude are also listed to be more specific. The background changes based on the temperature: at or below 60°F renders a cooler colored background; at or above 61°F renders a warmer colored background.",
+    "technologiesUsed": "CSS3, HTML5, JavaScript/ES6, ReactDOM, ReactJS, React Hooks",
+    "available": true,
+    "url": "https://reactweatherapp-51133.firebaseapp.com/",
+    "githubUrl": "https://github.com/gseals/ReactWeatherApp"
+  },
+  "project08": {
+    "title": "React Face Detect",
+    "screenshot": "https://raw.githubusercontent.com/gseals/React-Face-Detect/master/screenshots/Live%20Action%20Face%20Detected.png",
+    "description": "This application utilizes the <a href=\"https:\/\/www.clarifai.com\/\" rel=\"noopener noreferrer\" title=\"Clarifai API\" target=\"_blank\">Clarifai API</a> to detect a face within a photo and then frame that photo in a white box. Version 1 is limited to 1 face detected per photo.",
+    "technologiesUsed": "Clarifai, CSS3, ESLint, HTML5, JavaScript/ES6, ReactDOM, ReactJS, Tachyons",
+    "available": true,
+    "url": "https://gseals.github.io/React-Face-Detect/",
+    "githubUrl": "https://github.com/gseals/React-Face-Detect"
+  },
+  "project09": {
+    "title": "Breaking Bad Cast",
+    "screenshot": "https://raw.githubusercontent.com/gseals/Breaking-Bad-Cast/master/screenshots/Landing%20Page.png",
+    "description": "This application pulls from the <a href=\"https:\/\/breakingbadapi.com\/documentation\" rel=\"noopener noreferrer\" title=\"Breaking Bad API\" target=\"_blank\">Breaking Bad API</a> and displays 63 character images from the TV show \"Breaking Bad\". Hovering over any of the the images reveals a character's actor's name, nickname, date of birth, and status (alive or dead). Additionally, the search box at the top of the screen allows users to filter the results by character name.",
+    "technologiesUsed": "Axios, CSS3, ESLint, HTML5, JavaScript/ES6, ReactDOM, ReactJS, React Hooks",
+    "available": true,
+    "url": "https://gseals.github.io/Breaking-Bad-Cast/",
+    "githubUrl": "https://github.com/gseals/Breaking-Bad-Cast"
   }
 }
