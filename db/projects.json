@@ -45,7 +45,7 @@
     "githubUrl": "https://github.com/gseals/writersResort"
   },
   "project05": {
-    "title": "Local Storage React ToDo App",
+    "title": "Local Storage React Todo App",
     "screenshot": "https://raw.githubusercontent.com/gseals/Local-Storage-React-ToDo-App/master/screenshots/Landing%20Page.png",
     "description": "A React todo application that utilizes local storage so refreshing the page does not remove the items in your todo list. Each item in your list can be deleted, or marked as done with strikethrough.",
     "technologiesUsed": "CSS3, HTML5, JavaScript/ES6, Material-UI Core, Material-UI Icons, ReactDOM, ReactJS, React Hooks, uuid",
