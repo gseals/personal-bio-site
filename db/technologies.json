@@ -113,5 +113,20 @@
     "title": "ASP.NET CORE",
     "image": "https://personal-site-44635.firebaseapp.com/b85669289b677a6ce3d0b919db405c4d.png",
     "webpageURL": "https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-3.1"
+  },
+  "technology24": {
+    "title": "Lucid Chart",
+    "image": "https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2018Q4/funding-announcement/lucidchart-funding-announcement-header@2x-final.png",
+    "webpageURL": "https://www.lucidchart.com/pages/"
+  },
+  "technology25": {
+    "title": "Markdown",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1200px-Markdown-mark.svg.png",
+    "webpageURL": "https://www.markdownguide.org/"
+  },
+  "technology26": {
+    "title": "ESLint",
+    "image": "https://images.opencollective.com/eslint/74e8d66/background.png",
+    "webpageURL": "https://eslint.org/"
   }
 }
