@@ -11,7 +11,7 @@
   "project01": {
     "title": "Pinterest",
     "screenshot": "https://raw.githubusercontent.com/gseals/pinterest/master/screenshots/loggedIn.png",
-    "description": "A Pinterest-style application allowing users to create boards and pins for whatever they like.",
+    "description": "A Pinterest-style application allowing users to create boards and pins for whatever they like. This project allowed for the use of - and practice with - Axios, promises, and Firebase.",
     "technologiesUsed": "Axios, Bootstrap, CSS3, ESLint, Firebase, HTML5, JavaScript/ES6, jQuery, SCSS, Webpack",
     "available": true,
     "url": "https://pinterest-9ab9b.firebaseapp.com",
@@ -38,49 +38,58 @@
   "project04": {
     "title": "Capstone: writersResort",
     "screenshot": "https://raw.githubusercontent.com/gseals/writersResort/master/screenshots/auth.png",
-    "description": "writersResort allows users to post poems and invite feedback on those poems. Each user has access to edit and delete their own posts, via Axios calls, as well as any comments they've created. Each deleted post also deletes any comments associated with the post. Authentication occurs through Google and also pulls user's displayURL and Google Username.",
+    "description": "writersResort allows users to post poems and invite feedback on those poems. Each user has access to edit and delete their own posts or comments, via Axios calls. Each deleted post also deletes any comments associated with the post. Authentication occurs through Google and pulls user's displayURL and Google Username. Each post/comment is stamped with the time it was created and updated.",
     "technologiesUsed": "Axios, Bootstrap, CSS3, ESLint, Firebase, Fontawesome-svg-core, HTML5, JavaScript/ES6, Moment.js, Prop-Types, ReactDOM, ReactJS, React Flip Move, React-fontawesome, React Router DOM, Reactstrap, SCSS",
     "available": true,
     "url": "https://writersresort-97d54.firebaseapp.com/auth",
     "githubUrl": "https://github.com/gseals/writersResort"
   },
   "project05": {
+    "title": "Local Storage React ToDo App",
+    "screenshot": "https://raw.githubusercontent.com/gseals/Local-Storage-React-ToDo-App/master/screenshots/Landing%20Page.png",
+    "description": "A React todo application that utilizes local storage so refreshing the page does not remove the items in your todo list. Each item in your list can be deleted, or marked as done with strikethrough.",
+    "technologiesUsed": "CSS3, HTML5, JavaScript/ES6, Material-UI Core, Material-UI Icons, ReactDOM, ReactJS, React Hooks, uuid",
+    "available": true,
+    "url": "https://gseals.github.io/Local-Storage-React-ToDo-App/",
+    "githubUrl": "https://github.com/gseals/Local-Storage-React-ToDo-App"
+  },
+  "project06": {
     "title": "React Movie Database",
     "screenshot": "https://raw.githubusercontent.com/gseals/React-Movie-Database/master/screenshots/Results.png",
-    "description": "This application pulls from the <a href=\"http:\/\/www.omdbapi.com\/\" rel=\"noopener noreferrer\" title=\"OMDB API\" target=\"_blank\">OMDB</a> API and allows users to search for movies by title. If an incoherent or incorrect text string is placed in the search box, an alert appears asking for a new string. Results are limited to the top 10 results from the database.",
+    "description": "This application pulls from the <a href=\"http:\/\/www.omdbapi.com\/\" rel=\"noopener noreferrer\" title=\"OMDB API\" target=\"_blank\">OMDB API</a> and allows users to search for movies by title. If an incoherent or incorrect text string is placed in the search box, an alert appears asking for a new string. Results are limited to the top 10 results from the database.",
     "technologiesUsed": "Axios, CSS3, ESLint, HTML5, JavaScript/ES6, ReactDOM, ReactJS, React Hooks",
     "available": true,
     "url": "https://gseals.github.io/React-Movie-Database/",
     "githubUrl": "https://github.com/gseals/React-Movie-Database"
   },
-  "project06": {
+  "project07": {
     "title": "CoVID-19 Tracker",
     "screenshot": "https://raw.githubusercontent.com/gseals/covid-19-tracker/master/screenshots/Responsive.png",
-    "description": "This app tracks the number of confirmed cases, the number of recovered cases, and the number of deaths for CoVID-19 data from a global and country (181 countries) perspective. All data pulled from this <a href=\"https:\/\/covid19.mathdro.id\/api\" rel=\"noopener noreferrer\" title=\"CoVID API\" target=\"_blank\">API</a> and last date/time of information gathered displayed in cards at top of the page.",
-    "technologiesUsed": "Axios, Chart.js, Classnames, CSS3, ESLint, HTML5, JavaScript/ES6, Material-UI, Moment.js, ReactDOM, ReactJS, React-ChartJS-2, React CountUp, React Hooks",
+    "description": "This application tracks the number of confirmed cases, the number of recovered cases, and the number of deaths for CoVID-19 data from a global and country (181 countries) perspective. All data pulled from this <a href=\"https:\/\/covid19.mathdro.id\/api\" rel=\"noopener noreferrer\" title=\"CoVID API\" target=\"_blank\">API</a> and last date/time of information gathered displayed in cards at top of the page.",
+    "technologiesUsed": "Axios, Chart.js, Classnames, CSS3, ESLint, HTML5, JavaScript/ES6, Material-UI Core, Moment.js, ReactDOM, ReactJS, React-ChartJS-2, React CountUp, React Hooks",
     "available": true,
     "url": "https://gseals.github.io/covid-19-tracker/",
     "githubUrl": "https://github.com/gseals/covid-19-tracker"
   },
-  "project07": {
+  "project08": {
     "title": "React Weather App",
     "screenshot": "https://raw.githubusercontent.com/gseals/ReactWeatherApp/master/screenshots/Search%20Results%20above%2060.png",
-    "description": "This application utilizes the <a href=\"https:\/\/openweathermap.org\/api\" rel=\"noopener noreferrer\" title=\"openweathermap API\" target=\"_blank\">openweathermap API</a> and allows users to search for current weather based on city name. For good measure, since the API doesn't specify the state the city is in, latitude and longitude are also listed to be more specific. The background changes based on the temperature: at or below 60°F renders a cooler colored background; at or above 61°F renders a warmer colored background.",
+    "description": "This application utilizes the <a href=\"https:\/\/openweathermap.org\/api\" rel=\"noopener noreferrer\" title=\"openweathermap API\" target=\"_blank\">openweathermap API</a> and allows users to search for current weather based on city name. For good measure, since the API doesn't specify the state the city is in, latitude and longitude are also listed to provide more specificity. The background changes based on the temperature: at or below 60°F renders a cooler colored background; at or above 61°F renders a warmer colored background.",
     "technologiesUsed": "CSS3, HTML5, JavaScript/ES6, ReactDOM, ReactJS, React Hooks",
     "available": true,
     "url": "https://reactweatherapp-51133.firebaseapp.com/",
     "githubUrl": "https://github.com/gseals/ReactWeatherApp"
   },
-  "project08": {
+  "project09": {
     "title": "React Face Detect",
     "screenshot": "https://raw.githubusercontent.com/gseals/React-Face-Detect/master/screenshots/Live%20Action%20Face%20Detected.png",
-    "description": "This application utilizes the <a href=\"https:\/\/www.clarifai.com\/\" rel=\"noopener noreferrer\" title=\"Clarifai API\" target=\"_blank\">Clarifai API</a> to detect a face within a photo and then frame that photo in a white box. Version 1 is limited to 1 face detected per photo.",
+    "description": "This application utilizes the <a href=\"https:\/\/www.clarifai.com\/\" rel=\"noopener noreferrer\" title=\"Clarifai API\" target=\"_blank\">Clarifai API</a> to detect a face within a photo and then frame that face in a white box. Version 1 is limited to 1 face detected per photo.",
     "technologiesUsed": "Clarifai, CSS3, ESLint, HTML5, JavaScript/ES6, ReactDOM, ReactJS, Tachyons",
     "available": true,
     "url": "https://gseals.github.io/React-Face-Detect/",
     "githubUrl": "https://github.com/gseals/React-Face-Detect"
   },
-  "project09": {
+  "project10": {
     "title": "Breaking Bad Cast",
     "screenshot": "https://raw.githubusercontent.com/gseals/Breaking-Bad-Cast/master/screenshots/Landing%20Page.png",
     "description": "This application pulls from the <a href=\"https:\/\/breakingbadapi.com\/documentation\" rel=\"noopener noreferrer\" title=\"Breaking Bad API\" target=\"_blank\">Breaking Bad API</a> and displays 63 character images from the TV show \"Breaking Bad\". Hovering over any of the the images reveals a character's actor's name, nickname, date of birth, and status (alive or dead). Additionally, the search box at the top of the screen allows users to filter the results by character name.",
