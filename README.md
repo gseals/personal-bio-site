@@ -5,6 +5,10 @@
 
 A single-page application allowing the creator to display projects and applications built during his time at [Nashville Software School](http://nashvillesoftwareschool.com/).
 
+## Demo
+
+[Check out the Project](https://personal-bio-site-f8721.firebaseapp.com)
+
 ## Technologies Used
 
 * [Axios 0.19.0](https://www.npmjs.com/package/axios)
@@ -41,10 +45,6 @@ Contact
 * Install [http-server](https://www.npmjs.com/package/http-server) from npm.
 * At the root of this project, run the following command: `hs -p 8888`.
 * In your browser, navigate to `https://localhost:8888`
-
-## Demo
-
-[Check out the app here!](https://personal-bio-site-f8721.firebaseapp.com)
 
 ## Contributors
 
