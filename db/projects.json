@@ -97,5 +97,14 @@
     "available": true,
     "url": "https://gseals.github.io/Breaking-Bad-Cast/",
     "githubUrl": "https://github.com/gseals/Breaking-Bad-Cast"
+  },
+  "project11": {
+    "title": "Pokémon",
+    "screenshot": "https://raw.githubusercontent.com/gseals/pokemon/master/screenshots/Landing%20Page.png",
+    "description": "This application utilizes this <a href=\"https:\/\/graphql-pokemon.now.sh/\" rel=\"noopener noreferrer\" title=\"Breaking Bad API\" target=\"_blank\">GraphQL interface </a> to retrieve data on all 151 original Pokémon. Each Pokémon's name, image, max HP and CP, type, and attacks are listed on their respective cards.",
+    "technologiesUsed": "@apollo/react-hooks, Apollo Boost, CSS3, ESLint, GraphQL, GraphQL-Tag, HTML5, JavaScript/ES6, ReactDOM, ReactJS",
+    "available": true,
+    "url": "https://gseals.github.io/pokemon/",
+    "githubUrl": "https://github.com/gseals/pokemon"
   }
 }
