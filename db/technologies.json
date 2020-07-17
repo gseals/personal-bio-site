@@ -143,5 +143,10 @@
     "title": "Material-UI Core",
     "image": "https://material-ui.com/static/logo.png",
     "webpageURL": "https://material-ui.com/"
+  },
+  "technology30": {
+    "title": "Tachyons",
+    "image": "https://images.opencollective.com/tachyons/0d27601/logo/256.png",
+    "webpageURL": "https://tachyons.io/"
   }
 }
