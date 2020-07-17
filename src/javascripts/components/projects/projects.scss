@@ -1,6 +1,11 @@
 .projectCard {
   box-shadow: 5px 10px black;
   max-width: 900px;
+  transition: all 1.2s;
+}
+
+.projectCard:hover {
+  transform: scale(1.1);
 }
 
 .projectsBox {
