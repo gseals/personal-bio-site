@@ -101,10 +101,28 @@
   "project11": {
     "title": "Pokémon",
     "screenshot": "https://raw.githubusercontent.com/gseals/pokemon/master/screenshots/Landing%20Page.png",
-    "description": "This application utilizes this <a href=\"https:\/\/graphql-pokemon.now.sh/\" rel=\"noopener noreferrer\" title=\"Breaking Bad API\" target=\"_blank\">GraphQL interface </a> to retrieve data on all 151 original Pokémon. Each Pokémon's name, image, max HP and CP, type, and attacks are listed on their respective cards.",
+    "description": "This application utilizes this <a href=\"https:\/\/graphql-pokemon.now.sh/\" rel=\"noopener noreferrer\" title=\"Pokémon\" target=\"_blank\">GraphQL interface </a> to retrieve data on all 151 original Pokémon. Each Pokémon's name, image, max HP and CP, type, and attacks are listed on their respective cards.",
     "technologiesUsed": "@apollo/react-hooks, Apollo Boost, CSS3, ESLint, GraphQL, GraphQL-Tag, HTML5, JavaScript/ES6, ReactDOM, ReactJS",
     "available": true,
     "url": "https://gseals.github.io/pokemon/",
     "githubUrl": "https://github.com/gseals/pokemon"
+  },
+  "project12": {
+    "title": "YouTube Clone",
+    "screenshot": "https://raw.githubusercontent.com/gseals/youtube-clone/master/screenshots/Landing%20Page.png",
+    "description": "This application pulls data from the <a href=\"https:\/\/developers.google.com\/youtube\/v3\/getting-started\/\" rel=\"noopener noreferrer\" title=\"YouTube API\" target=\"_blank\">YouTube API</a> and, based on the code written, returns the top 5 results from the query. The code also allows an initial query to be returned in the ComponentDidMount and that result is set to 'nashville software school.'",
+    "technologiesUsed": "Axios, CSS3, ESLint, HTML5, JavaScript/ES6, Material-UI Core, ReactDOM, ReactJS",
+    "available": true,
+    "url": "https://gseals.github.io/youtube-clone/",
+    "githubUrl": "https://github.com/gseals/youtube-clone"
+  },
+  "project13": {
+    "title": "Speech Recognition",
+    "screenshot": "https://raw.githubusercontent.com/gseals/speech-recognition/master/screenshots/Landing%20Page2.png",
+    "description": "This application utilizes a user's microphone to listen to speech and converts that speech to text. This application was written in HTML5, CSS3/SCSS, and JavaScript. The Talk button is active and the End button is inactive when the application is not listening. When the application is listening, a user can either stop talking or press the End button to cease recording. The Talk button will become active again once the application is not listening.",
+    "technologiesUsed": "CSS3, HTML5, JavaScript",
+    "available": true,
+    "url": "https://day6speechrecognition.firebaseapp.com/",
+    "githubUrl": "https://github.com/gseals/speech-recognition"
   }
 }
