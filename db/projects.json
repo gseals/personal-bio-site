@@ -45,15 +45,78 @@
     "githubUrl": "https://github.com/gseals/writersResort"
   },
   "project05": {
-    "title": "Local Storage React Todo App",
+    "title": "Local Storage React To Do App",
     "screenshot": "https://raw.githubusercontent.com/gseals/Local-Storage-React-ToDo-App/master/screenshots/Landing%20Page.png",
-    "description": "A React todo application that utilizes local storage so refreshing the page does not remove the items in your todo list. Each item in your list can be deleted, or marked as done with strikethrough.",
+    "description": "A React to do application that utilizes local storage so refreshing the page does not remove the items in your to do list. Each item in your list can be deleted, or marked as done with strikethrough.",
     "technologiesUsed": "CSS3, HTML5, JavaScript/ES6, Material-UI Core, Material-UI Icons, ReactDOM, ReactJS, React Hooks, uuid",
     "available": true,
     "url": "https://gseals.github.io/Local-Storage-React-ToDo-App/",
     "githubUrl": "https://github.com/gseals/Local-Storage-React-ToDo-App"
   },
   "project06": {
+    "title": "Animated React To Do App",
+    "screenshot": "https://raw.githubusercontent.com/gseals/React-Todolist/master/screenshots/LandingPage.png",
+    "description": "Application allows users to add, edit, and delete items from their To Do list. Each added or deleted animation works thanks to React Flip Move.",
+    "technologiesUsed": "CSS3, Fontawesome-svg-core, Free-solid-svg-icons, HTML5, JavaScript, ReactDOM, ReactJS, React Flip Move, React-fontawesome",
+    "available": true,
+    "url": "https://gseals.github.io/React-in-github-demo/",
+    "githubUrl": "https://github.com/gseals/React-Todolist"
+  },
+  "project07": {
+    "title": "Quizbee",
+    "screenshot": "https://raw.githubusercontent.com/gseals/quizbee/master/screenshots/LandingPage.png",
+    "description": "Quiz application pulling from prebuilt data that displays 5 options at a time, allows users to see their final score, and allows users to start the game over.",
+    "technologiesUsed": "CSS3, HTML5, JavaScript, ReactDOM, ReactJS",
+    "available": true,
+    "url": "https://gseals.github.io/quizbee/",
+    "githubUrl": "https://github.com/gseals/quizbee"
+  },
+  "project08": {
+    "title": "React Currency Conversion",
+    "screenshot": "https://raw.githubusercontent.com/gseals/react-currency-conversion/master/screenshots/LandingPage.png",
+    "description": "This application pulls data from the <a href=\"https:\/\/exchangeratesapi.io\/\" rel=\"noopener noreferrer\" title=\"Foreign exchange rates API\" target=\"_blank\">Foreign exchange rates API</a> and allows users to calculate the latest exchange rates for 33 countries.",
+    "technologiesUsed": "CSS3, HTML5, JavaScript, ReactDOM, ReactJS",
+    "available": true,
+    "url": "https://gseals.github.io/react-currency-conversion/",
+    "githubUrl": "https://github.com/gseals/react-currency-conversion"
+  },
+  "project09": {
+    "title": "Timer",
+    "screenshot": "https://raw.githubusercontent.com/gseals/Day1Timer/master/screenshots/LandingPage.png",
+    "description": "A Timer application built using HTML, CSS, JavaScript, and SCSS.",
+    "technologiesUsed": "CSS3, HTML5, JavaScript, SCSS",
+    "available": true,
+    "url": "https://timer-bace6.firebaseapp.com/",
+    "githubUrl": "https://github.com/gseals/Day1Timer"
+  },
+  "project10": {
+    "title": "Calculator",
+    "screenshot": "https://raw.githubusercontent.com/gseals/Day2Calculator/master/screenshots/LandingPage.png",
+    "description": "A Calculator application built using HTML, CSS, JavaScript, and SCSS.",
+    "technologiesUsed": "CSS3, HTML5, JavaScript, SCSS",
+    "available": true,
+    "url": "https://calculator-4a3d3.firebaseapp.com/",
+    "githubUrl": "https://github.com/gseals/Day2Calculator"
+  },
+  "project11": {
+    "title": "Analog Clock",
+    "screenshot": "https://raw.githubusercontent.com/gseals/Day1-31AnalogClock/master/screenshots/LandingPage205.png",
+    "description": "An Analog Clock built using HTML, CSS, JavaScript, and SCSS that reflects the time where you are.",
+    "technologiesUsed": "CSS3, HTML5, JavaScript, SCSS",
+    "available": true,
+    "url": "https://analogclock-511b2.firebaseapp.com/",
+    "githubUrl": "https://github.com/gseals/Day1-31AnalogClock"
+  },
+  "project12": {
+    "title": "Tetris",
+    "screenshot": "https://raw.githubusercontent.com/gseals/basic-tetris/master/screenshots/GameBegin.png",
+    "description": "A Tetris-style game built using HTML, CSS, and JavaScript",
+    "technologiesUsed": "CSS3, HTML5, JavaScript",
+    "available": true,
+    "url": "https://tetris-106fa.firebaseapp.com/",
+    "githubUrl": "https://github.com/gseals/basic-tetris"
+  },
+  "project13": {
     "title": "React Movie Database",
     "screenshot": "https://raw.githubusercontent.com/gseals/React-Movie-Database/master/screenshots/Results.png",
     "description": "This application pulls from the <a href=\"http:\/\/www.omdbapi.com\/\" rel=\"noopener noreferrer\" title=\"OMDB API\" target=\"_blank\">OMDB API</a> and allows users to search for movies by title. If an incoherent or incorrect text string is placed in the search box, an alert appears asking for a new string. Results are limited to the top 10 results from the database.",
@@ -62,7 +125,7 @@
     "url": "https://gseals.github.io/React-Movie-Database/",
     "githubUrl": "https://github.com/gseals/React-Movie-Database"
   },
-  "project07": {
+  "project14": {
     "title": "CoVID-19 Tracker",
     "screenshot": "https://raw.githubusercontent.com/gseals/covid-19-tracker/master/screenshots/Responsive.png",
     "description": "This application tracks the number of confirmed cases, the number of recovered cases, and the number of deaths for CoVID-19 data from a global and country (181 countries) perspective. All data pulled from this <a href=\"https:\/\/covid19.mathdro.id\/api\" rel=\"noopener noreferrer\" title=\"CoVID API\" target=\"_blank\">API</a> and last date/time of information gathered displayed in cards at top of the page.",
@@ -71,7 +134,7 @@
     "url": "https://gseals.github.io/covid-19-tracker/",
     "githubUrl": "https://github.com/gseals/covid-19-tracker"
   },
-  "project08": {
+  "project15": {
     "title": "React Weather App",
     "screenshot": "https://raw.githubusercontent.com/gseals/ReactWeatherApp/master/screenshots/Search%20Results%20above%2060.png",
     "description": "This application utilizes the <a href=\"https:\/\/openweathermap.org\/api\" rel=\"noopener noreferrer\" title=\"openweathermap API\" target=\"_blank\">openweathermap API</a> and allows users to search for current weather based on city name. For good measure, since the API doesn't specify the state the city is in, latitude and longitude are also listed to provide more specificity. The background changes based on the temperature: at or below 60°F renders a cooler colored background; at or above 61°F renders a warmer colored background.",
@@ -80,7 +143,7 @@
     "url": "https://reactweatherapp-51133.firebaseapp.com/",
     "githubUrl": "https://github.com/gseals/ReactWeatherApp"
   },
-  "project09": {
+  "project16": {
     "title": "React Face Detect",
     "screenshot": "https://raw.githubusercontent.com/gseals/React-Face-Detect/master/screenshots/Live%20Action%20Face%20Detected.png",
     "description": "This application utilizes the <a href=\"https:\/\/www.clarifai.com\/\" rel=\"noopener noreferrer\" title=\"Clarifai API\" target=\"_blank\">Clarifai API</a> to detect a face within a photo and then frame that face in a white box. Version 1 is limited to 1 face detected per photo.",
@@ -89,7 +152,7 @@
     "url": "https://gseals.github.io/React-Face-Detect/",
     "githubUrl": "https://github.com/gseals/React-Face-Detect"
   },
-  "project10": {
+  "project17": {
     "title": "Breaking Bad Cast",
     "screenshot": "https://raw.githubusercontent.com/gseals/Breaking-Bad-Cast/master/screenshots/Landing%20Page.png",
     "description": "This application pulls from the <a href=\"https:\/\/breakingbadapi.com\/documentation\" rel=\"noopener noreferrer\" title=\"Breaking Bad API\" target=\"_blank\">Breaking Bad API</a> and displays 63 character images from the TV show \"Breaking Bad\". Hovering over any of the the images reveals a character's actor's name, nickname, date of birth, and status (alive or dead). Additionally, the search box at the top of the screen allows users to filter the results by character name.",
@@ -98,7 +161,7 @@
     "url": "https://gseals.github.io/Breaking-Bad-Cast/",
     "githubUrl": "https://github.com/gseals/Breaking-Bad-Cast"
   },
-  "project11": {
+  "project18": {
     "title": "Pokémon",
     "screenshot": "https://raw.githubusercontent.com/gseals/pokemon/master/screenshots/Landing%20Page.png",
     "description": "This application utilizes this <a href=\"https:\/\/graphql-pokemon.now.sh/\" rel=\"noopener noreferrer\" title=\"Pokémon\" target=\"_blank\">GraphQL interface </a> to retrieve data on all 151 original Pokémon. Each Pokémon's name, image, max HP and CP, type, and attacks are listed on their respective cards.",
@@ -107,7 +170,7 @@
     "url": "https://gseals.github.io/pokemon/",
     "githubUrl": "https://github.com/gseals/pokemon"
   },
-  "project12": {
+  "project19": {
     "title": "YouTube Clone",
     "screenshot": "https://raw.githubusercontent.com/gseals/youtube-clone/master/screenshots/Landing%20Page.png",
     "description": "This application pulls data from the <a href=\"https:\/\/developers.google.com\/youtube\/v3\/getting-started\/\" rel=\"noopener noreferrer\" title=\"YouTube API\" target=\"_blank\">YouTube API</a> and, based on the code written, returns the top 5 results from the query. The code also allows an initial query to be returned in the ComponentDidMount and that result is set to 'nashville software school.'",
@@ -116,7 +179,7 @@
     "url": "https://gseals.github.io/youtube-clone/",
     "githubUrl": "https://github.com/gseals/youtube-clone"
   },
-  "project13": {
+  "project20": {
     "title": "Speech Recognition",
     "screenshot": "https://raw.githubusercontent.com/gseals/speech-recognition/master/screenshots/Landing%20Page2.png",
     "description": "This application utilizes a user's microphone to listen to speech and converts that speech to text. This application was written in HTML5, CSS3/SCSS, and JavaScript. The Talk button is active and the End button is inactive when the application is not listening. When the application is listening, a user can either stop talking or press the End button to cease recording. The Talk button will become active again once the application is not listening.",
