@@ -18,16 +18,13 @@ const bioString = () => {
   </div>
   <div class="modCol">
   <div class="bioBackground bioParaText">
-  <p>
+  <pursued>
   I graduated <a href="https://www.tntech.edu/cas/english/" rel="noopener noreferrer" target="_blank">Tennessee Technological University</a>
-  with a degree in English Literature, married the sweetest girl I’d ever met, and swiftly moved to Nashville.
-  </p>
-  <p>
-  While my wife pursued her doctorate, I pursued my Masters in English through 
+  with a degree in English Literature and pursued my Masters in English through 
   <a href="http://www.belmont.edu/grad-english/index.html" rel="noopener noreferrer" target="_blank">Belmont University</a>.
   I attended grad school both as a way to further my education and as a way to prove I could do
   the work, contribute interesting ideas, provide effective feedback,
-  and work towards a goal. My wife and I graduated in 2017.
+  and work towards a goal. I graduated with my Masters in 2017.
   </p>
   <p>
   The road from there to here looks like this: I did some remote editing for a
@@ -59,7 +56,7 @@ const bioString = () => {
   </p>
   <p>
   p.s. - this is the first <a href="http://campus.belmont.edu/students/f16/sealsg/" rel="noopener noreferrer" target="_blank">website</a> I 
-  ever built using only HTML and CSS.
+  ever built using HTML, CSS, and a little Photoshop.
   </p>
   </div>
   </div>
