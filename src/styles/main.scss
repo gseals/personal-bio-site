@@ -18,6 +18,13 @@ body {
   flex-wrap: wrap;
 }
 
+#featuredProjectsDisplay {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .card {
   margin: auto;
 }
@@ -85,6 +92,10 @@ body {
 }
 
 #projectsPage {
+  padding-top: 55px;
+}
+
+#featuredProjectsPage {
   padding-top: 55px;
 }
 

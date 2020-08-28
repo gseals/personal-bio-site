@@ -7,7 +7,8 @@ const createProjectCards = () => {
   getProjectData.getProjectData()
     .then((projects) => {
       projects.forEach((project) => {
-        domString += `
+        if (project.isFeatured === false) {
+          domString += `
           <div class="card projectCard mb-3">
             <div class="row no-gutters">
               <div class="col-md-4">
@@ -26,7 +27,8 @@ const createProjectCards = () => {
               </div>
             </div>
           </div>`;
-        util.printToDom('projectsDisplay', domString);
+          util.printToDom('projectsDisplay', domString);
+        }
       })
         .catch((error) => console.error(error));
     });

@@ -1,0 +1,15 @@
+.featuredProjectCard {
+  box-shadow: 5px 10px black;
+  max-width: 900px;
+  transition: all 1.2s;
+}
+
+.featuredProjectCard:hover {
+  transform: scale(1.1);
+}
+
+.featuredProjectsBox {
+  background: rgba(2, 15, 41, 0.4);
+  height: 100%;
+  margin: auto;
+}
