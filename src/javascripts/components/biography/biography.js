@@ -14,7 +14,7 @@ const bioString = () => {
   <a href="mailto:webdevseals@gmail.com" rel="noopener noreferrer" title="Email" target="_blank" class="fas fa-mail-bulk"></a>
   <a href="https://www.linkedin.com/in/gabriel-seals-063238188" rel="noopener noreferrer" title="LinkedIn" target="_blank" class="fab fa-linkedin-in"></a>
   <a href="https://github.com/gseals" rel="noopener noreferrer" title="GitHub" target="_blank" class="fab fa-github"></a>
-  <a href="https://raw.githubusercontent.com/gseals/personal-bio-site/master/src/assets/GSealsResume.pdf" rel="noopener noreferrer" title="Résumé" target="_blank" class="fas fa-file"></a>
+  <a href="https://raw.githubusercontent.com/gseals/personal-bio-site/master/src/assets/Sept_1_GS_Resume.pdf" rel="noopener noreferrer" title="Résumé" target="_blank" class="fas fa-file"></a>
   </div>
   <div class="modCol">
   <div class="bioBackground bioParaText">
